@@ -479,7 +479,7 @@ h6 { font-size: 16px; }
 	right: 0px;
 	top: 0px;
 	bottom: 0px;
-	width: 75%;
+	width: 55%;
 }
 .shane_tm_hero .image{
 	position: absolute;
@@ -569,10 +569,10 @@ h6 { font-size: 16px; }
 body.loaded .overlay_effect:before{
 	z-index: 2;
   	background-color: #000;
-  	animation: anim 2s cubic-bezier(0.77, 0, 0.175, 1) both;
+  	animation: anim 1s cubic-bezier(0.77, 0, 0.175, 1) both;
 }
 body.loaded .overlay_effect:after{
- 	animation: anim2 2s cubic-bezier(0.77, 0, 0.175, 1) both;
+ 	animation: anim2 1s cubic-bezier(0.77, 0, 0.175, 1) both;
 }
 
 @keyframes anim{
@@ -2094,6 +2094,7 @@ body.loaded .overlay_effect:after{
 }
 
 .progressbar{
+	display:none; /* Mobildeki scroll sorunu nedeniyle kaldırıldı. */
     position: fixed;
 	height: 100px;
     width: 1px;
@@ -2142,6 +2143,7 @@ body.loaded .overlay_effect:after{
 	.shane_tm_modalbox .short_info > ul{margin: 0px;}
 	.shane_tm_modalbox .short_info > ul > li{width: 100%;padding-left: 0px;}
 	.shane_tm_classic_hero .name_wrap h3{font-size: 55px;}
+	.shane_tm_hero .background{width: 75%;}
 }
 @media (max-width: 1040px) {
 	.shane_tm_topbar{display: none;}
