@@ -810,6 +810,18 @@ body.loaded .overlay_effect:after{
 	color: #333;
 	font-family: "Poppins";
 	letter-spacing: 0px;
+	
+}
+.shane_tm_partners h3{
+	display: inline-block;
+	background-color: rgba(0,0,0,.05);
+	text-transform: uppercase;
+	padding: 4px 10px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #333;
+	font-family: "Poppins";
+	letter-spacing: 0px;
 	margin-bottom: 15px;
 }
 .shane_tm_about .right .text{
@@ -2129,6 +2141,12 @@ body.loaded .overlay_effect:after{
 .progressbar a{
 	text-decoration: none;
 	color: #000;
+}
+.socialLink a{
+	margin-left: 12px;
+}
+.socialLink img:hover{
+	border-radius: 50%;
 }
 /*---------------------------------------------------*/
 /*	SCROOLBAR
