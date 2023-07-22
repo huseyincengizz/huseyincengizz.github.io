@@ -2130,9 +2130,28 @@ body.loaded .overlay_effect:after{
 	text-decoration: none;
 	color: #000;
 }
+/*---------------------------------------------------*/
+/*	SCROOLBAR
+/*---------------------------------------------------*/
+::-webkit-scrollbar { /* Yeni */
+	width: 4px; 
+  } /* Yeni */
+  ::-webkit-scrollbar-track {  /* Yeni */
+	background: #000; 
+  } /* Yeni */
+  ::-webkit-scrollbar-thumb { /* Yeni */
+	background: crimson; /
+  } /* Yeni */
+  ::-webkit-scrollbar-thumb:hover { /* Yeni */
+	background: #555; 
+  } /* Yeni */
+
+  /*---------------------------------------------------*/
+/*	SCROOLBAR
+/*---------------------------------------------------*/
 
 /*---------------------------------------------------*/
-/*	16) SHANE MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	16) SHANE MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
