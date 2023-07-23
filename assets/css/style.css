@@ -116,6 +116,7 @@ h6 { font-size: 16px; }
 	height: auto;
 	clear: both;
 	float: left;
+	background-color: #F9F9F9;
 }
 
 #preloader {
@@ -1702,8 +1703,6 @@ body.loaded .overlay_effect:after{
 	right: 0px;
 	z-index: 4;
 }
-
-
 .shane_tm_news .news_hidden_details{
 	display: none;
 	opacity: 0;
@@ -2219,6 +2218,7 @@ body.loaded .overlay_effect:after{
 	.shane_tm_modalbox .wrapper .right{width: 100%;padding: 0px;}
 	.shane_tm_button a{padding: 11px 35px;}
 	.shane_tm_classic_hero .name_wrap h3{font-size: 50px;}
+	.socialLink img{width: 48px; height: 48px;}
 }
 @media (max-width: 768px) {
 	.shane_tm_hero .content{padding-right: 0px;width: 100%;}
@@ -2226,4 +2226,5 @@ body.loaded .overlay_effect:after{
 	.shane_tm_portfolio .portfolio_list ul li{padding: 0px;width: 100%;}
 	.shane_tm_news .news_list ul{margin: 0px;}
 	.shane_tm_news .news_list ul li{padding: 0px;width: 100%;}
+	.socialLink img{width: 48px; height: 48px;}
 }
