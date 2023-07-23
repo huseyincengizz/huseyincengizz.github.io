@@ -1,0 +1,885 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+.container {
+    max-width: 1215px;
+    width: 95%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+}
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+}
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+}
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+}
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+}
+.pLarge {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.01px;
+    color: #5F6D7E;
+}
+.pSmall {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+    color: #5F6D7E;
+}
+
+
+/*-------------------------------------------------------------*/
+/*-------------------- Global Settings End --------------------*/
+/*-------------------------------------------------------------*/
+
+/* ------------- */
+/* Mobil version */
+/* ------------- */
+
+/*-------------------- Navbar --------------------*/
+
+nav ul {
+    display: none;
+}
+nav {
+    border-bottom: 1px solid #EAEBF0;
+    background-color: #F8F9FB;
+}
+.navbarContainer {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkbtn {
+    cursor: pointer;
+}
+#check {
+    display: none;
+}
+#check:checked~.links {
+    display: block;
+    position: absolute;
+    left: 0;
+}
+.navbarButtons {
+    display: none;
+}
+
+/*-------------------- Hero --------------------*/
+
+
+.hero {
+    background-color: #f8f9fb;
+}
+.heroContainer {
+    padding: 32px 0 40px 0;
+}
+.heroContainer h4 {
+    margin-bottom: 32px;
+    color: #437EF7;
+    text-align: center;
+    font-weight: 600;
+}
+.heroContainer h1 {
+    margin-bottom: 16px;
+    text-align: center;
+}
+.heroContainer p {
+    text-align: center;
+}
+
+/*-------------------- Service --------------------*/
+.service {
+    padding: 32px 0;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.service h2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+.serviceContainer>p {
+    display: none;
+}
+.services h3 {
+    margin-bottom: 8px;
+}
+.services p {
+    margin-bottom: 16px;
+}
+.services a {
+    color: #437EF7;
+    display: flex;
+    gap: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+.services div:nth-child(-n+3) a {
+    display: none;
+}
+.services div>img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+}
+/*-------------------- Footer --------------------*/
+
+footer {
+    font-family: 'Inter', sans-serif;
+    padding: 32px 0;
+}
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    order: 1;
+}
+.footerLogo img {
+    margin-bottom: 22px;
+}
+.footerMenus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px 0;
+    order: 3;
+}
+.footerMenu {
+    width: 146px;
+}
+.footerMenu h6 {
+    color: black;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+.footerMenu ul {
+    color: #5F6D7E;
+}
+.footerMenu li {
+    margin-bottom: 12px;
+}
+.footerIcons {
+    display: flex;
+    justify-content: space-around;
+    order: 2;
+}
+.footerShape {
+    order: 4;
+    display: flex;
+    justify-content: center;
+}
+.footerCopy {
+    order: 5;
+}
+.blueShape {
+    width: 48px;
+    height: 48px;
+    background-color: #f5faff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.footerCopy p {
+    text-align: center;
+}
+
+/*-------------------- Faq --------------------*/
+
+.faqContainer {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+.faqContentText h2,
+.faqContentText {
+    text-align: center;
+}
+.faqContentText {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.faqTableItemLeftArea {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+.faqTableItemHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    border-bottom: 1px solid #EAEBF0;
+}
+.faqTableItemTop {
+    font-weight: 500;
+    line-height: 28px;
+    color: #272D37;
+}
+.faqTableItemRightArea {
+    display: flex;
+    align-items: center;
+}
+.faqTableItemRightArea p {
+    display: flex;
+    align-items: center;
+    background: #F5FAFF;
+    color: #437EF7;
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+.faqTableItem {
+    height: 80px;
+    display: flex;
+    color: #272D37;
+    font-weight: 500;
+    padding: 0 32px;
+    align-items: center;
+    border-bottom: 1px solid #EAEBF0;
+    border-collapse: collapse;
+}
+
+.faqTable {
+    flex-direction: column;
+    border: 1px solid #EAEBF0;
+    border-radius: 5px;
+}
+
+.faqTableItemRight {
+    display: none;
+}
+
+/*-------------------- Team --------------------*/
+
+.dFlex {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.teamContainer h2 {
+    text-align: center;
+}
+.teamP {
+    text-align: center;
+    margin-bottom: 32px;
+}
+.teamContainer img {
+    margin-bottom: 15.67px;
+}
+.teamContainer h3 {
+    margin-bottom: 0;
+}
+.job {
+    margin-bottom: 13px;
+}
+
+/*-------------------- Cta --------------------*/
+
+.cta {
+    background-color: #2b63d9;
+    color: white;
+    font-family: 'Inter';
+}
+.ctaContainer {
+    padding: 32px 0;
+}
+.ctaContainer p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    margin-bottom: 8px;
+}
+.ctaContainer h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.ctaButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.ctaButtons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5FAFF;
+    color: #437EF7;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    border-radius: 6px;
+    padding: 12px 0;
+    width: 100%;
+}
+.ctaButtons a:nth-child(2) {
+    background-color: #437ef7;
+    color: white;
+}
+.ctaIcons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+/*-------------------- Feature --------------------*/
+
+.featureContainer {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.featureTextArea h3 {
+    line-height: 36px;
+    font-size: 28px;
+    color: #272D37;
+}
+.featureTextArea {
+    margin-bottom: 32px;
+}
+.approvalText {
+    display: flex;
+    flex-direction: row;
+}
+.approvalText img {
+    margin-right: 8px;
+}
+.startButton {
+    border-radius: 6px;
+    width: 133px;
+    height: 46px;
+    font-size: 15px;
+    line-height: 22px;
+    border: none;
+    background-color: #437EF7;
+    margin-bottom: 32px;
+}
+.startButtonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 18px;
+}
+.startButton a {
+    color:#FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    gap: 6px;
+}
+.startButton img {
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+}
+.featureTextMiddle {
+    display: none;
+}
+.setupDesktop {
+    display: none;
+}
+.setupPhoto {
+    display: none;
+}
+
+@media screen and (max-width:1024px) and (min-width: 768px) {
+
+    /* ------------- */
+    /* Tablet version */
+    /* ------------- */
+
+    h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 60px;
+        letter-spacing: -0.01em;
+    }
+    
+    h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        margin-bottom: 24px;
+    }
+
+    h5 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+    }
+
+    /*-------------------------------------------------------------*/
+    /*-------------------- Global Settings End --------------------*/
+    /*-------------------------------------------------------------*/
+
+
+    /*-------------------- Hero Tablet --------------------*/
+
+    .heroContainer {
+        padding: 48px 0 80px 0;
+    }
+
+    /*-------------------- Service Tablet --------------------*/
+
+    .services {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .services div {
+        width: 336px;
+    }
+
+    .services div:nth-child(-n+3) a {
+        display: flex;
+    }
+
+    .services div:nth-child(2n+1) a {
+        display: none;
+    }
+
+
+    /*-------------------- Faq Tablet--------------------*/
+
+    .faqContentText h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .faqTableItemRight {
+        display: none;
+    }
+
+    /*-------------------- Team Tablet--------------------*/
+    .dGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 32px;
+    }
+
+    /*-------------------- Cta Tablet--------------------*/
+
+    .ctaContainer h2 {
+        margin-bottom: 32px;
+    }
+
+    .ctaButtons {
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .ctaButtons a {
+        width: 86px;
+        margin-bottom: 80px;
+    }
+
+    .ctaIcons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px 100px;
+    }
+
+    /*-------------------- Feature Tablet--------------------*/
+
+    .featureTextArea h3 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .setupPhoto {
+        width: 704px;
+        height: 460px;
+    }
+
+    .setupDesktop {
+        display: none;
+    }
+
+    .setupDesktopMobile {
+        display: none;
+    }
+
+    .setupPhoto {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* ------------- */
+    /* Masaüstü version*/
+    /* ------------- */
+
+    h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 60px;
+        letter-spacing: -0.01em;
+    }
+
+    h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        margin-bottom: 16px;
+    }
+
+    h3 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        margin-bottom: 16px;
+    }
+
+    h5 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+    }
+
+    /*-------------------------------------------------------------*/
+    /*-------------------- Global Settings End --------------------*/
+    /*-------------------------------------------------------------*/
+
+
+    /*-------------------- Navbar Masaüstü --------------------*/
+
+    .checkbtn {
+        display: none;
+    }
+
+
+    .navbarContainer {
+        gap: 70px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .navbarContainer ul {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+        gap: 32px;
+    }
+
+
+    .navbarContainer ul a:nth-child(3) li {
+        display: flex;
+        gap: 12px;
+    }
+
+    .navbarButtons {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .navbarButtons a:first-child {
+        color: #437EF7;
+    }
+
+    .navbarButtons a:last-child {
+        background-color: #437EF7;
+        padding: 12px 18px;
+        border-radius: 6px;
+        color: #FFFFFF;
+    }
+
+    /*-------------------- Hero --------------------*/
+
+    .heroContainer {
+        padding: 80px 300px 92px 300px;
+    }
+
+
+
+    /*-------------------- Service Tablet --------------------*/
+
+    .service h2 {
+        margin-bottom: 16px;
+    }
+
+    .serviceContainer>p {
+        display: block;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .services {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .services div {
+        width: 384px;
+    }
+
+    .services div a {
+        display: none;
+    }
+
+    .services div:nth-child(n+4) {
+        display: none;
+    }
+
+    /*-------------------- Footer Masaüstü --------------------*/
+
+    .footerContainer {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .footerShape {
+        grid-area: 4 / 1 / 5 / 6;
+    }
+
+    .footerCopy {
+        grid-area: 5 / 1 / 6 / 6;
+    }
+
+    .footerLogo {
+        grid-area: 1 / 1 / 3 / 2;
+    }
+
+    .footerIcons {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .footerMenus {
+        grid-area: 1 / 2 / 4 / 6;
+    }
+
+    .footerIcons {
+        gap: 24px;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footerIcons img {
+        width: 24px;
+        aspect-ratio: 1;
+    }
+
+    /*-------------------- Faq Masaüstü --------------------*/
+
+    .faqContainer {
+        margin-top: 64px;
+        margin-bottom: 64px
+    }
+
+    .faqContentText {
+        width: 800px;
+    }
+
+    .faqTableItemRight {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .faqTableItemRight img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .faqTableItem {
+        justify-content: space-between;
+    }
+
+    .faqTableItemRight p {
+        margin-right: 32px;
+        font-weight: 500;
+    }
+    
+     /*-------------------- Feature Masaüstü --------------------*/
+
+    .featureTopArea {
+        margin: auto;
+    }
+
+    .featureContainer {
+        display: flex;
+        gap: 124px;
+    }
+
+    .featureTextMiddle {
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .featureContainer {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .setupPhoto {
+        display: none;
+    }
+
+    .setupDesktopMobile {
+        display: none;
+    }
+
+    .setupDesktop {
+        display: flex;
+    }
+
+    /*-------------------- Team Masaüstü--------------------*/
+    .dGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 32px;
+    }
+
+    .teamP {
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        margin-bottom: 64px;
+    }
+
+    /*-------------------- Cta Tablet--------------------*/
+
+    .ctaContainer h2 {
+        margin-bottom: 32px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ctaButtons {
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .ctaButtons a {
+        width: 86px;
+        margin-bottom: 64px;
+    }
+
+    .ctaIcons {
+        padding: 64px 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+    }
+}
