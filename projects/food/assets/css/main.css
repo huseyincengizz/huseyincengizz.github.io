@@ -1,0 +1,538 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    margin: 0 165px;
+    gap: 40px;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+}
+.nav a{
+    color: #212121;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #212121;
+}
+.avatar{
+    display: flex;
+    column-gap: 8px;
+}
+.active{
+    text-decoration: 2px solid underline;
+    text-decoration-color: #FD7E14;
+}
+.avatar img{
+    border-radius: 50%;
+}
+.avatar img:hover{
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+.avatarText{
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+}
+.homeImage{
+    position: relative;
+    background-image: url("../img/home-images.png");
+    height: 784px;
+    margin-bottom: 64px;
+}
+.imageContent{
+    width: 920px;
+    height: 266px;
+    margin: 259px 260px;
+    position: absolute;
+}
+.imageText{
+    width: 920px;
+    height: 162px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 81px;
+    color: #fff;
+    border: 1px solid transparent;
+    text-align: center;
+    letter-spacing: -0.9px;
+    margin-bottom: 40px;
+}
+.imageText h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 81px;
+    text-align: center;
+    letter-spacing: -0.9px;
+    color: #FFF;
+}
+.homeImage a{
+    background-color:#FD7E14;
+    border: 0;
+    padding: 16px 64px;
+    border-radius: 3px;
+    color: #fff;
+    margin-left: 294px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    text-align: center;
+}
+.homeImage a{
+    text-decoration: none;
+    color: #FFF;
+}
+.menu{
+    display: flex;
+    position: relative;
+    column-gap: 24px;
+    width: 1110px;
+    height: 165px;
+    margin-left: 165px;
+    margin-bottom: 112px;
+}
+.menu div{
+    width: 165px;
+    height: 165px;
+}
+.menu p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212121;
+}
+.breakfastIcon p{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212121;
+    top: 91px;
+    left: 48px;
+}
+.soupsIcon p{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212121;
+    top: 90px;
+    left: 248px;
+}
+.dishIcon p{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212121;
+    top: 90px;
+    left: 416px;
+}
+.lunchIcon p{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212121;
+    top: 89px;
+    right: 438px;
+}
+.dessertsIcon p{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212121;
+    top: 87px;
+    right: 236px;
+}
+.veganIcon p{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212121;
+    top: 86px;
+    right: 59px;
+}
+.breakfastIcon{
+    padding-top: 45px;
+    padding-right: 62px;
+    padding-bottom: 78px;
+    padding-left: 63px;
+}
+.soupsIcon{
+    padding-top: 47px;
+    padding-right: 53px;
+    padding-bottom: 80px;
+    padding-left: 52px;
+}
+.dishIcon{
+    padding-top: 53px;
+    padding-right: 58.5px;
+    padding-bottom: 81px;
+    padding-left: 52.5px;
+}
+.lunchIcon{
+    padding-top: 53px;
+    padding-right: 53px;
+    padding-bottom: 84px;
+    padding-left: 52px;
+}
+.dessertsIcon{
+    padding-top: 46px;
+    padding-right: 62.01px;
+    padding-bottom: 79.01px;
+    padding-left: 61px;
+}
+.veganIcon{
+    padding-top: 47px;
+    padding-right: 58px;
+    padding-bottom: 80px;
+    padding-left: 57px;
+}
+.latestRecipes{
+    width: 1440px;
+    height: 924px;
+    margin-bottom: 80px;
+}
+.latestRecipesContent{
+    display: flex;
+    column-gap: 24px;
+    width: 1110px;
+    height: 361px;
+    margin-left: 165px;
+}
+.latestRecipesContent a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212121;
+}
+.latestRecipesContent div{
+    width: 260px;
+    height: 293px;
+}
+.latestRecipesContents{
+    display: flex;
+    column-gap: 24px;
+    width: 1110px;
+    height: 361px;
+    margin-left: 165px;
+    margin-bottom: 70px;
+}
+.latestRecipesContent a:hover{
+    color: #FD7E14;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.latestRecipesContents a:hover{
+    color: #FD7E14;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.latestRecipesContents div{
+    width: 260px;
+    height: 293px;
+}
+.latestRecipesContents a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212121;
+}
+.latestRecipes h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #212121;
+    margin-bottom: 32px;
+    margin-left: 162px;
+
+}
+.latestRecipes h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212121;
+}
+.loadMore{
+    text-align: center;
+}
+.loadMoreBtn{
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #FFF;
+    color: #121212;
+    padding: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    text-align: center; 
+}
+.loadMoreBtn:hover{
+    background-color: #FD7E14;
+    color: #FFF;
+    transition: 0.6s;
+}
+.deals{
+    background-image:url("../img/deals-background.png");
+    width: 1110px;
+    height: 352px;
+    margin-left: 165px;
+    border: 1px solid gainsboro;
+    border-radius: 16px;
+}
+.dealsText{
+    width: 426px;
+    height: 96px;
+    border: 1px solid transparent;
+    margin-left: 342px;
+    margin-top: 96px;
+    margin-bottom: 16px;
+}
+.deals h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+}
+.mailContent{
+    text-align: center;
+}
+.mailText{
+    border:0;
+    border-radius: 4px 0 0 4px;
+    width: 264px;
+    height: 40px;
+    padding-left: 12px;
+    outline: 0;
+}
+.mailButton{
+    background-color: #FD7E14;
+    cursor: pointer;
+    padding: 11px 22px;
+    color: #FFF;
+    border: 0;
+    margin-left: -4px;
+    border-radius: 0 4px 4px 0;
+}
+.recipe{
+    width: 1440px;
+    height: 875px;
+    border: 1px solid transparent;
+}
+caption{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #212121;
+}
+.recipeIcon{
+    display: inline;
+}
+.recipeText h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.7px;
+    color: #212121;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.recipeContent{
+    display: flex;
+    align-items: center;
+    width: 1110px;
+    height: 635px;
+    margin: 120px 165px;
+    
+}
+.recipeText{
+    width: 443px;
+    height: 346;
+    flex-basis: 475px;
+    margin-left: 120px;
+    margin-right: 32px;
+    margin-top: 241px;
+    margin-bottom: 328px;
+}
+.recipeText a{
+    border: 0;
+    border-radius: 3px;
+    padding: 16px 64px;
+    background: #FD7E14;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+}
+.recipeText a{
+    text-decoration: none;
+    color: #FFF;
+}
+.recipeImage{
+    flex-basis: 635px;
+}
+.recipeImage img{
+    border-radius: 16px;
+}
+.featuredCollections{
+    width: 1440px;
+    height: 694px;
+    border: 1px solid transparent;
+}
+.featuredCollections h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #212121;
+    margin-left: 165px;
+    margin-top: 20px;
+    position: absolute;
+}
+.featuredCollectionsContent{
+    width: 1110px;
+    height: 468px;
+    display: flex;
+    column-gap: 24px;
+    margin: 80px 165px;
+}
+.featuredCollectionsImage{
+    position: relative;
+    width: 543px;
+    height: 381px;
+    margin-bottom: 77px;
+}
+.featuredCollectionsImage a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    color: #212121;
+}
+.featuredCollectionsImage a:nth-child(odd):hover{
+    color: #FD7E14;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.featuredCollectionsImage .recipesCount{
+    position: absolute;
+    padding: 4px 24px;
+    top: 16px;
+    right: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #212121;
+    background-color:floralwhite;
+}
+.featuredCollectionsImage img{
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 16px;
+}
+.featuredCollectionsImage h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    color: #212121;
+}
+.footer{
+    width: 1440px;
+    height: 304px;
+}
+.footerContent{
+    position: relative;
+    width: 1110px;
+    height: 208px;
+    margin-left: 165px;
+    margin-top: 56px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerNav{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #212121;
+}
+.footerNav a{
+    text-decoration: none;
+    color: #212121;
+}
+.copyright{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #807E7E;
+}
+.footerIcon{
+    display: flex;
+    column-gap: 48px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.footerIcon img:hover{
+    transform: scale(1.2);
+}
