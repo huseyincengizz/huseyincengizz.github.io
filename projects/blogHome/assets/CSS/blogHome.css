@@ -1,0 +1,552 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background: rgba(216, 216, 216, 0.0001);
+    color: #212121;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/* CSS RESET FINISH */
+
+/* GENERAL CSS START */
+
+.headerContainer{
+    width: 1420px;
+    margin: 0 auto;
+}
+.mainContainer{
+    width: 1110px;
+    margin: 0 auto;
+}
+.avatarText{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: right;
+}
+.rotateAvatar:hover{
+    transform: rotate(-360deg);
+    transition: 1.5s;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #52647C;
+}
+a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #807E7E;
+    text-decoration: none;
+}
+hr{
+    background-color: #EAEAEA;
+    opacity: 0.1;
+}
+ul{
+    list-style-type: none;
+}
+.featuredButton{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFF;
+    padding: 4px 24px;
+    background: #0D6EFD;
+    border-radius: 3px;
+}
+.loadButton{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFF;
+    background: #0D6EFD;
+    border-radius: 3px;
+    padding: 16px 72px;
+    margin-bottom: 80px;
+}
+
+/* GENERAL CSS FINISH */
+
+/* DESKTOP CSS START */
+
+.mobileLogo{
+    display: none;
+}
+.logo{
+    margin-top: 8px;
+}
+.headerAvatar{
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 165px;
+}
+.navbarIcons{
+    display: flex;
+    align-items: center;
+}
+.user{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: right;
+    color: #212121;
+    margin-right: 10px;
+}
+.giftIcons{
+    margin-right: 48px;
+}
+.downLink{
+    margin-right: 50px;
+}
+.hero{
+    background-image: url("../img/png/heroBackground.png");
+    background-repeat: no-repeat;
+    height: 660px;
+    width: 1420px;
+    margin-bottom: 80px;
+}
+.heroContent{
+    display: inline-block;
+    width: 541px;
+    height: 236px;
+    background-color: #FFF;
+    padding: 48px;
+    margin-left: 165px;
+    margin-top: 388px;
+}
+.heroContent h1{
+    margin-bottom: 18px;
+}
+.prevAndNext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prevAndNext a{
+    background: #FFF;
+    border-radius: 6px;
+    border: transparent;
+    padding: 19px 27px;
+}
+.prev{
+    display: inline-block;
+    margin-top: -588px;
+    margin-left: 24px;
+}
+.next{
+    display: inline-block;
+    margin-top: -588px;
+    margin-right: 24px;
+}
+.heroAvatar{
+    display: flex;
+    align-items: center;
+}
+.heroAvatar img{
+    margin-right: 12px;
+}
+.featured{
+    margin-bottom: 136px;
+}
+.featured h3{
+    margin-bottom: 24px;
+}
+.featured hr{
+    margin-bottom: 40px;
+    background-color: #EAEAEA;
+    opacity: 0.1;
+}
+.featuredCard img{
+    margin-bottom: 16px;
+}
+.featuredCard h4{
+    margin-bottom: 10px;
+}
+.featuredCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 56px 24px;
+}
+.featuredAvatar img{
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.featuredAvatar{
+    display: flex;
+}
+.read{
+    display: none;
+}
+.blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 375px;
+    background: #212121;
+    border-radius: 12px;
+    margin-bottom: 136px;
+}
+.blog h2{
+    color: #FFF;
+    margin-bottom: 18px;
+}
+.blogAvatar{
+    border-radius: 50%;
+}
+.blogContent{
+    margin-top: 145px;
+    margin-left: 64px;
+}
+.blogContent a{
+    margin-bottom: 16px;
+}
+.blogFlex{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.blogFlex p{
+    color: #FFF;
+}
+.keyboard{
+    margin-top: 57px;
+}
+.radius{
+    border-radius: 12px;
+}
+.travel h3{
+    margin-bottom: 24px;
+}
+.travel hr{
+    margin-bottom: 40px;
+    background-color: #EAEAEA;
+    opacity: 0.1;
+}
+.travelCard{
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    align-items: center;
+    margin-bottom: 56px;
+}
+.travelContent h2{
+    margin-bottom: 10px;
+}
+.travelAvatar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.travelAvatar img{
+    margin-right: 12px;
+    border-radius: 50%;
+}
+.mobileHeading{
+    display: none;
+}
+.quotes{
+    display: none;
+}
+.alignCenter{
+    text-align: center;
+}
+.inbox{
+    background: url("../img/png/inboxBackground.png");
+    width: 1110px;
+    height: 354px;
+    margin-bottom: 120px;
+}
+.inboxContent{
+    padding-top: 77px;
+    margin-left: 342px;
+}
+.inboxContent h1{
+    color: #FFF;
+    margin-bottom: 25px;
+    margin-right: 374px;
+    text-align: center;
+}
+.inboxContent p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFF;
+    margin-left: 64px;
+}
+.inbox + hr{
+    margin-bottom: 70px;
+}
+input{
+    width: 303px;
+    height: 48px;
+    margin-bottom: 11px;
+    border: 1px solid #C4C4C4;
+    padding: 0 16px;
+    border-right: 0;
+}
+button{
+    width: 63px;
+    height: 48px;
+    background: #0D6EFD;
+    border-radius: 0px 2px 2px 0px;
+    border: 1px solid #C4C4C4;
+    border-left: 0;
+}
+button img{
+    color: #FFF;
+    padding: 19px;
+}
+.mail{
+    display: flex;
+    margin-left: 18px;
+}
+.footerContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    margin-bottom: 72px;
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: right;
+    color: #212121;
+    margin-bottom: 25px;
+}
+footer li:first-child{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #212121;
+}
+.footerSub{
+    display: flex;
+    justify-content: space-between;
+}
+.footerSub p{
+    color: #807E7E;
+}
+.footerLogo{
+    margin-top: 24px;
+}
+.copyright{
+    margin-top: 24px;
+}
+.socialMedia{
+    display: flex;
+    gap: 43px;
+    margin-top: 26px;
+}
+/* DESKTOP CSS FINISH */
+
+/* MOBILE CSS START */
+
+@media only screen and (max-width: 450px) {
+.headerContainer{
+    width: 375px;
+    margin:0 auto;
+}
+.mainContainer{
+    width: 375px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.mobileLogo{
+    display: inline-block;
+    width: 140px;
+    margin: 0;
+}
+.navbar{
+    display: block;
+    padding: 32px 118px;
+}
+.desktopLogo{
+    display: none;
+}
+.navbarIcons{
+    display: none;
+}
+.hero{
+    display: none;
+}
+hr{
+    margin-right: 8px;
+}
+.featured{
+    margin-bottom: 32px;
+}
+.featuredCards{
+    grid-template-columns: 1fr;
+}
+.featuredCard h4{
+    text-align: center;
+}
+.read{
+    display: inline-block;
+    margin-top: 8px;
+    color: #0D6EFD;
+}
+.blog{
+    grid-template-columns: 1fr;
+    margin-right: 8px;
+    margin-bottom: 32px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%,
+    rgba(253,29,29,1) 50%, rgba(252,105,69,1) 100%);
+}
+.blogContent{
+    margin-top: 78px;
+    margin-left: 48px;
+}
+.blogFlex p{
+    margin-top: -16px;
+}
+.keyboard{
+    display: none;
+}
+.travelCard{
+    grid-template-columns: 1fr;
+    margin-right: 8px;
+}
+.travelContent h2{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.travelAvatar + p{
+    display: none;
+}
+.mobileHeading{
+    display: block;
+}
+.desktopHeading{
+    display: none;
+}
+.quotes{
+    display: block;
+}
+.inbox{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%,
+    rgba(253,29,29,1) 50%, rgba(252,105,69,1) 100%);
+    width: 359px;
+    border-radius: 12px;
+    margin-bottom: 48px;
+    height: 200px;
+}
+.inboxContent{
+    margin-left: 8px;
+    padding-top: 8px;
+}
+.inboxContent h1{
+    display: none;
+}
+input{
+    width: 212px;
+    margin-top: 48px;
+    margin-left: 12px;
+}
+.mail button{
+    margin-top: 48px;
+}
+.inboxContent p{
+    font-weight: bolder;
+    margin-left: 27px;
+}
+.footerContent{
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: -32px;
+    margin-bottom: 32px;
+    margin-right: 8px;
+}
+.footerColumn p{
+    display: none;
+}
+.footerInput{
+    display: none;
+}
+.footerSub{
+    margin-right: 8px;
+}
+.footerLogo{
+    margin-top: 28px;
+}
+.socialMedia{
+    gap: 16px;
+}
+.beIcons{
+    display: none;
+}
+.loadButton{
+    display: none;
+}
+}
+/* MOBILE CSS FINISH */
