@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALE</title>
+    <link rel="icon" type="image/x-icon" href="assets/IMG/cartIcon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/CSS/crisp.css">
+    <link rel="stylesheet" href="assets/CSS/reset.css">
+    <script src="assets/JS/crisp.js" defer></script>
+    <script src="assets/JS/shipping.js" defer></script>
+    <script src="assets/JS/comment.js" defer></script>
+    <script src="assets/JS/color.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="home.html"><img src="assets/IMG/logo.png" alt="Website Logo"></a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="sale.html" class="active">sale</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                    <li class="search">
+                        <img src="assets/IMG/searchIcon.svg" alt="">
+                        <a href="#">search</a></li>
+                </ul>
+            </nav>
+            <div class="signMenu">
+                <ul>
+                    <li><a href="signIn.html">sıgn ın</a></li>
+                    <li><a href="newAccount.html">create an account</a></li>
+                    <li>
+                        <span class="savedCount"></span>
+                        <a href="#"><img src="assets/IMG/like.svg" alt="Like" class="like"></a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="shipping.html"><img src="assets/IMG/cart.svg" alt="Cart"></a>
+                        
+                    </li>
+                    <li>
+                        <p class="productsInCart">0 item(s)</p>
+                        <p class="totalBasket">0,00 EUR</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainContainer">
+            <div class="sortChoose">
+            <div class="linkLocation">
+                <a href="#">Home </a> /
+                <a href="#">Womens Dress </a> /
+                <a href="#">Best Chose </a> 
+            </div>
+            <div class="sort">
+                <select id="sortBy">
+                    <option value="high" selected>price (High to low)</option>
+                    <option value="low" >price (Low to High)</option>
+                    <option value="Average" >Avg. Customer Review</option>
+                    <option value="Newest" >Newest Arrivals</option>
+                    <option value="Best" >Best Sellers</option>
+                </select>
+                <select id="selectSize">
+                    <option value="12">12</option>
+                    <option value="24">24</option>
+                    <option value="36">36</option>
+                    <option value="48" selected>48</option>
+                </select>
+            </div>
+        </div> 
+            
+            <div class="content">
+                <div class="contentLeft">
+                    <div class="status">
+                        <details open>
+                            <summary>
+                              <h2 class="filterHeading">Brand</h2>
+                            </summary>
+                            <ul class="filterList">
+                              <li><input type="checkbox" name="" id=""> STATE</li>
+                              <li><input type="checkbox" name="" id=""> COOPER</li>
+                              <li><input type="checkbox" name="" id=""> BARDOT</li>
+                              <li><input type="checkbox" name="" id=""> ALFANİ</li>
+                              <li><input type="checkbox" name="" id=""> CECE</li>
+                            </ul>
+                          </details>
+                    </div>
+                    <h2 class="filterHeading"> Size (Inches)</h2>
+                    <div class="buttonSize">
+                        <button id="size">OSFA</button>
+                        <button id="size"> W26</button>
+                        <button id="size"> W27</button>
+                        <button id="size"> W28</button>
+                        <button id="size"> W29</button>
+                        <button id="size"> W30</button>
+                        <button id="size"> W31</button>
+                        <button id="size"> W32</button>
+                        <button id="size"> W33</button>
+                        <button id="size"> W34</button>
+                        <button id="size"> W35</button>
+                        <button id="size"> W36</button>
+                        <button id="size"> W38</button>
+                        <button id="size"> W40</button>
+                        <button id="size"> W42</button>
+                        <button id="size"> W44</button>
+                        <button id="size"> W48</button>
+                        <button id="size"> W50</button>
+                        <button id="size"> W52</button>
+                    </div>
+                    <h2 class="filterHeading"> Color </h2>
+                    <div class="colors">
+                        <a class="colorOne" id="selectColor"></a>
+                        <a class="colorTwo" id="selectColor"></a>
+                        <a class="colorThree" id="selectColor"></a>
+                        <a class="colorFour" id="selectColor"></a>
+                        <a class="colorFive" id="selectColor"></a>
+                        <a class="colorSix" id="selectColor"></a>
+                        <a class="colorSeven" id="selectColor"></a>
+                        <a class="colorEight" id="selectColor"></a>
+                        <a class="colorNine" id="selectColor"></a>
+                        <a class="colorTen" id="selectColor"></a>
+                        <a class="colorEleven" id="selectColor"></a>
+                        <a class="colorTwelve" id="selectColor"></a>
+                    </div>
+                    <h2 class="filterHeading">Price Range</h2>
+                    <span id="selectedRange"></span>
+                    <span id="lastRange"></span>
+                    <div id="slider"></div>
+                    <button class="apply"> APPLY </button>
+                    
+                        <h2 class="filterHeading">Dress Lenght</h2>
+                         <input type="checkbox" name="" id=""> SHORT <br>
+                         <input type="checkbox" name="" id=""> KNEE LENGHT <br>
+                         <input type="checkbox" name="" id=""> HIGHT LOW <br>
+                         <input type="checkbox" name="" id=""> LONG <br>
+                         <input type="checkbox" name="" id="midi"> MIDI
+            
+                    <h2 class="filterHeading"> About Dresses</h2>
+                    <p class="aboutText"> Every day we’re gonna be dropping the latest trends to help you nail every Summer
+                        sitch. Whether it’s a graduation, your mate's wedding, or just a cute day at the races with the gals, our
+                        occasion dresses have got you covered. Not looking for something fancy? No stress. We’ve got day
+                        dresses for days (aka bodycon dresses,t-shirt dresses, oversized shirt dresses).</p>
+
+                </div> 
+
+                <div class="contentCenter" id="contentCenter">                    
+                    
+                </div> <!-- contentCenter Finish -->
+            </div> <!-- Content Finish -->
+            
+        </div> <!-- mainContainer Finish-->
+        <div class="securePayment">
+                <div class="tick">
+                    <img src="assets/IMG/tickIcon.svg" alt="">
+                    <p>Duties and Taxes Guaranteed</p>
+                </div>
+                <div class="tick">
+                    <img src="assets/IMG/tickIcon.svg" alt="">
+                    <p>Free Express Shipping</p>
+                </div>
+                <div class="tick">
+                    <img src="assets/IMG/tickIcon.svg" alt="">
+                    <p>Customer Love</p>
+                </div>
+                <div class="tick">
+                    <img src="assets/IMG/tickIcon.svg" alt="">
+                    <p>Easy Returns</p>
+                </div>
+                <div class="tick">
+                    <img src="assets/IMG/tickIcon.svg" alt="">
+                    <p>Secure Payment</p>
+                </div>
+        
+        </div>
+        <div class="footer">
+            <div class="footerLogo">
+                <a href="home.html"><img src="assets/IMG/logo.png" alt="Website Logo"></a>
+            </div>
+            <div>
+                <h2>features</h2>
+                <ul>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">BOYS</a></li>
+                    <li><a href="#">GIRLS</a></li>
+                    <li><a href="#">NEW ARRIVALS</a></li>
+                    <li><a href="#">SHOES</a></li>
+                    <li><a href="#">COTHES</a></li>
+                    <li><a href="#">ACCESSORIES</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>menu</h2>
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">MY ACCOUNT</a></li>
+                    <li><a href="#">ORDERS HISTORY</a></li>
+                    <li><a href="#">MY WISHLIST</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </div>
+            <div class="contactUs">
+                <h2>contact us</h2>
+                <div>
+                    <p>ADRESS:</p>
+                    <p>123 STREET NAME, CITY, ENGLAND</p>
+                </div>
+                <div>
+                    <p>PHONE:</p>
+                    <p>(123) 456-7890</p>
+                </div>
+                <div>
+                    <p>EMAIL:</p>
+                    <p>MAIL@EXAMPLE.COM</p>
+                </div>
+                <div>
+                    <p>WORKING DAYS/HOURS:</p>
+                    <p>MON - SUN / 9:00AM - 8:00PM</p>
+                </div>
+            </div>
+            <div>
+                <h2>follow us</h2>
+                <div class="footerIcon">
+                    <img src="assets/IMG/facebookIcon.svg" alt="">
+                    <a href="#">FACEBOOK</a>
+                </div>
+                <div class="footerIcon">
+                    <img src="assets/IMG/twitterIcon.svg" alt="">
+                    <a href="#">TWITTER</a>
+                </div>
+                <div class="footerIcon">
+                    <img src="assets/IMG/instagramIcon.svg" alt="">
+                    <a href="#">INSTAGRAM</a>
+                </div>
+            </div>
+            <div class="join">
+                <h2>joın us</h2>
+                <p>Subscribe to our newsletters</p>
+                <input type="email" class="emailInput" placeholder="Email Address">
+                <button class="subscribe">Subscribe!</button>
+            </div>
+            
+        </div> <!-- Footer Finish-->
+        <div class="footerSub">
+            <hr>
+        <p class="copyright">© 2019. Crisp theme Developed by Belvg</p>
+    </div>
+    </div> <!--Container Finish-->
+</body>
+</html>
