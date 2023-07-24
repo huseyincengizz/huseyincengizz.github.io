@@ -1,0 +1,206 @@
+body{
+    background-color: #212121;
+    color: #fff;
+  }
+  .addBasket {
+    border-radius: 10px;
+    outline: 2px solid #FEBF00;
+    border: 0;
+    background-color: #e2e2e2;
+    outline-offset: 3px;
+    padding: 10px 8px;
+    transition: 0.25s;
+    margin-top: 16px;
+  }
+  
+  .addBasket:focus {
+    outline-offset: 5px;
+    background-color: #fff
+  }
+  .button {
+      position: relative;
+      width: 156px;
+      height: 50px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      border: 1px solid #34974d;
+      background-color: #3aa856;
+      margin-bottom: 16px;
+    }
+    
+    .button, .button__icon, .button__text {
+      transition: all 0.3s;
+    }
+    
+    .button .button__text {
+      padding: 0 16px;
+      color: #fff;
+      font-weight: 600;
+    }
+    
+    .button .button__icon {
+      position: absolute;
+      transform: translateX(109px);
+      height: 100%;
+      width: 39px;
+      background-color: #34974d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .button .svg {
+      width: 30px;
+      stroke: #fff;
+    }
+    
+    .button:hover {
+      background: #34974d;
+    }
+    
+    .button:hover .button__text {
+      color: transparent;
+    }
+    
+    .button:hover .button__icon {
+      width: 148px;
+      transform: translateX(0);
+    }
+    
+    .button:active .button__icon {
+      background-color: #2e8644;
+    }
+    
+    .button:active {
+      border: 1px solid #2e8644;
+    }
+  
+    button {
+      width: 156px;
+      height: 50px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      background: red;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+      background: #e62222;
+      margin-bottom: 10px;
+     }
+     
+     button, button span {
+      transition: 200ms;
+     }
+     
+     button .text {
+      padding: 0 4px;
+      color: white;
+      font-weight: bold;
+     }
+     
+     button .icon {
+      position: absolute;
+      border-left: 1px solid #c41b1b;
+      transform: translateX(110px);
+      height: 40px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+     
+     button svg {
+      width: 15px;
+      fill: #eee;
+     }
+     
+     button:hover {
+      background: #ff3636;
+     }
+     
+     button:hover .text {
+      color: transparent;
+     }
+     
+     button:hover .icon {
+      width: 150px;
+      border-left: none;
+      transform: translateX(0);
+     }
+     
+     button:focus {
+      outline: none;
+     }
+     
+     button:active .icon svg {
+      transform: scale(0.8);
+     }
+     .addBasket{
+      margin-bottom: 10px;
+     }
+     .greenButton {
+      width: 156px;
+      height: 40px;
+      cursor: pointer;
+      border: 1px solid #34974d;
+      background-color: #3aa856;
+      color:#fff;
+      margin-bottom: 16px;
+    }
+    .greenButton:hover{
+      background-color: #34974d;
+    }
+    .greenButton span{
+      padding: 16px;
+      font-weight: 600;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      gap: 96px;
+    }
+    .centerArea{
+      margin-top: 88px;
+    }
+    .centerArea button{
+      margin: 0 auto;
+      margin-top: 16px;
+    }
+    .rightArea{
+      margin-top: 88px;
+    }
+    .rightArea button{
+      margin: 0 auto;
+      margin-top: 16px;
+    }
+    .buttonText{
+      color: #fff;
+      font-weight: 600;
+      padding-left: 8px;
+    }
+    .blueButton{
+      background-color: dodgerblue;
+      color: #FFF;
+      padding: 16px 32px;
+      font-weight: 600;
+    }
+    .blueButton:hover{
+      background-color: royalblue;
+    }
+    h1{
+      text-decoration: underline;
+      margin-bottom: 16px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 32px;
+    }
+    #basketCount{
+      padding: 0 3px;
+      font-size: 14px;
+      border-radius: 50%;
+      color: white;
+      margin-top: -8px;
+      margin-left: 2px;
+    }

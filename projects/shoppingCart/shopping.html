@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../shoppingCart/assets/CSS/shopping.css">
+    <script src="../shoppingCart/assets/JS/shopping.js"></script>
+    <link rel="icon" type="image/x-icon" href="assest/img/cartIcon.svg">
+    <title>Shopping Cart</title>
+</head>
+<body>
+
+      <div class="container"> <!-- Container Start-->
+
+        <div class="leftArea"> <!-- Left Area Start-->
+
+      <input type="text" class="addBasket" id="addBasket" placeholder="ID numarasını giriniz..." autocomplete="off">
+
+      <button class="blueButton" onclick="showProducts()">
+        Ürünler
+      </button>
+
+      <button class="blueButton" onclick="showCategories()">
+        Kategoriler
+      </button>
+
+      <button type="button" class="button" onclick="addCart()">
+        <span class="button__text">Sepete Ekle</span>
+        <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+      </button>
+
+      <button class="noselect" onclick="deleted()">
+        <span class="text">Sepetten Çıkar</span>
+        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z">
+        </path></svg></span>
+      </button>
+
+      <button type="button" class="blueButton" onclick="showCart()">
+        <span>Sepete Git</span>
+        <span id="basketCount"></span>
+      </button>
+      <p id="text"></p>
+      
+  </div> <!-- Left Area Finish-->
+    
+    <div class="centerArea"> <!-- Center Area Start-->
+    <h1>Ürün Ekle</h1>
+
+    <table>
+        <tr>
+    <td>Ürün Adı :</td>
+    <td><input type="text" id="productName"></td>
+    </tr>
+    <tr>
+    <td>Ürün ID :</td>
+    <td><input type="text" id="productID" disabled></td>
+    </tr>
+    <tr>
+     <td>Ürün Fiyatı :</td>
+     <td><input type="text" id="productPrice"></td>
+    </tr>
+    <tr>
+     <td>Ürün Stoğu :</td>
+     <td><input type="text" id="productStock"></td>
+    </tr>
+    <tr>
+     <td>Ürün Kategorisi :</td>
+     <td><input type="text" id="productCategory"></td>
+    </tr>
+</table>
+
+<button type="button" class="button" onclick="addProduct()">
+    <span class="button__text">Ürün Ekle</span>
+    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+  </button>
+
+</div> <!-- Center Area Finish-->
+  
+  <div class="rightArea"> <!-- Right Area Start-->
+  <h1>Kategori Ekle</h1>
+
+  <table>
+    <tr>
+    <td>Kategori ID :</td>
+    <td><input type="text" id="categoryId" disabled></td>
+    </tr>
+    <tr>
+    <td>Kategori Adı :</td>
+    <td><input type="text" id="categoryName"></td>
+    </tr>
+  </table>
+
+  <button type="button" class="button" onclick="addCategory()">
+    <span class="buttonText ">Kategori Ekle</span>
+    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+  </button>
+</div> <!-- Right Area Finish-->
+
+</div> <!-- Container Finish-->
+
+</body>
+</html>
