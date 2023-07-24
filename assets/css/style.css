@@ -2171,6 +2171,9 @@ body.loaded .overlay_effect:after{
 /*	16) SHANE MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
 
+@media (min-width: 1600px) {
+	.testimonials_inner{margin-top: -240px;}
+}
 @media (max-width: 1600px) {
 	.container{max-width: 1070px;}
 	.shane_tm_hero .content h3{font-size: 55px;}
@@ -2180,6 +2183,7 @@ body.loaded .overlay_effect:after{
 	.shane_tm_modalbox .short_info > ul > li{width: 100%;padding-left: 0px;}
 	.shane_tm_classic_hero .name_wrap h3{font-size: 55px;}
 	.shane_tm_hero .background{width: 75%;}
+	.testimonials_inner{margin-top: -240px;}
 }
 @media (max-width: 1040px) {
 	.shane_tm_topbar{display: none;}
@@ -2227,4 +2231,5 @@ body.loaded .overlay_effect:after{
 	.shane_tm_news .news_list ul{margin: 0px;}
 	.shane_tm_news .news_list ul li{padding: 0px;width: 100%;}
 	.socialLink img{width: 48px; height: 48px;}
+	
 }
