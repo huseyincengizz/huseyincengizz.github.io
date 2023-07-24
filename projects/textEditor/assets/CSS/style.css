@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    background-repeat: no-repeat;
+}
+.container{
+    text-align: center;
+}
+button{
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 8px;
+}
+button:hover{
+    background-color:powderblue;
+    border: 1px solid azure;
+}
+#backColor,#textColor{
+    height: 56px;
+}
+.myText{
+    min-width: 1200px;
+    height: 376px;
+}
+/* textarea{
+    resize: none;
+    display: inline-block;
+} */
