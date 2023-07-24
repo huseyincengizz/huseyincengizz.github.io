@@ -1477,6 +1477,7 @@ body.loaded .overlay_effect:after{
 	clear: both;
 	display: flex;
 	justify-content: space-between;
+	margin-top: -300px;
 }
 .shane_tm_testimonials .left{
 	width: 50%;
