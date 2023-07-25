@@ -2184,7 +2184,7 @@ body.loaded .overlay_effect:after{
 	.shane_tm_modalbox .short_info > ul > li{width: 100%;padding-left: 0px;}
 	.shane_tm_classic_hero .name_wrap h3{font-size: 55px;}
 	.shane_tm_hero .background{width: 75%;}
-	.testimonials_inner{margin-top: -240px;}
+	.testimonials_inner{padding-top: 60px;}
 }
 @media (max-width: 1040px) {
 	.shane_tm_topbar{display: none;}
