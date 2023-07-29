@@ -493,7 +493,8 @@ h6 { font-size: 16px; }
 	background-size: cover;
 }
 .content{
-	padding-left: 40px;
+	margin-left: -82px;
+	margin-top: 48px;
 }
 .shane_tm_hero[data-style="one"] .background{clip-path: polygon(0% 100%, 21% 0%, 100% 0%, 100% 100%);}
 .shane_tm_hero[data-style="two"] .background{clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);}
@@ -2177,6 +2178,7 @@ body.loaded .overlay_effect:after{
 
 @media (min-width: 1600px) {
 	.testimonials_inner{margin-top: -240px;}
+	.content{padding-left: 280px; margin-left: 0;}
 }
 @media (max-width: 1600px) {
 	.container{max-width: 1070px;}
@@ -2188,6 +2190,7 @@ body.loaded .overlay_effect:after{
 	.shane_tm_classic_hero .name_wrap h3{font-size: 55px;}
 	.shane_tm_hero .background{width: 75%;}
 	.testimonials_inner{padding-top: 60px;}
+	.content{padding-left: 102px;}
 }
 @media (max-width: 1040px) {
 	.shane_tm_topbar{display: none;}
