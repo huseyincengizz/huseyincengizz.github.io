@@ -698,7 +698,6 @@ body.loaded .overlay_effect:after{
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-/*	background-color: rgba(0,0,0,.5);*/
 	z-index: 1;
 }
 .shane_tm_classic_hero .container{
@@ -1353,7 +1352,7 @@ body.loaded .overlay_effect:after{
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	background-color: rgba(0,0,0,.6);
+	background-color: rgba(0,0,0);
 	z-index: 1;
 }
 .shane_tm_business_video .content{
@@ -1580,6 +1579,16 @@ body.loaded .overlay_effect:after{
 .shane_tm_testimonials .right .owl-carousel .owl-item.active .short .job span{
 	transform: translateY(0px);
 	transition-delay: 0.6s;
+}
+.job{
+	margin-left: 4px;
+	background-color: #e54b4b;
+	font-weight: bolder;
+	color: #FFF;
+	padding: 4px;
+}
+.jobColor{
+	background-color: transparent;
 }
 
 /*---------------------------------------------------*/
