@@ -2161,15 +2161,19 @@ body.loaded .overlay_effect:after{
 }
 .socialLink img{
 	width: 256px;
+	margin-bottom: 96px !important;
+	margin-left: 32px;
+	margin-top: 16px !important;
+}
+.gitLogo img{
+	width: 256px !important;
+	height: 108px !important;
+	margin-left: 16px;
+	margin-bottom: -396px;
 }
 .socialLink img:hover{
 	border-radius: 50%;
 }
-.gitLogo img{
-	width: 72px !important;
-	height: 128px !important;
-}
-
 /*---------------------------------------------------*/
 /*	SCROOLBAR
 /*---------------------------------------------------*/
@@ -2197,9 +2201,8 @@ body.loaded .overlay_effect:after{
 @media (min-width: 1600px) {
 	.testimonials_inner{margin-top: -240px;}
 	.content{padding-left: 280px; margin-left: 0;}
-	.gitLogo img{
-		width: 312px;
-	}
+	.gitLogo img{width: 296px !important; height: 296px !important; margin-top: 48px !important;}
+	.gitLogom img{margin-top: 18px !important;}
 }
 @media (max-width: 1600px) {
 	.container{max-width: 1070px;}
@@ -2212,9 +2215,9 @@ body.loaded .overlay_effect:after{
 	.shane_tm_hero .background{width: 75%;}
 	.testimonials_inner{padding-top: 60px;}
 	.content{padding-left: 102px;}
-	.gitLogo img{
-		width: 312px;
-	}
+	.gitLogo img{width: 296px !important; height: 296px !important; margin-top: 48px !important;}
+	.gitLogom img{margin-top: 18px !important;}
+	
 }
 @media (max-width: 1040px) {
 	.shane_tm_topbar{display: none;}
@@ -2253,10 +2256,7 @@ body.loaded .overlay_effect:after{
 	.shane_tm_modalbox .wrapper .right{width: 100%;padding: 0px;}
 	.shane_tm_button a{padding: 11px 35px;}
 	.shane_tm_classic_hero .name_wrap h3{font-size: 50px;}
-	.socialLink img{width: 48px; height: 48px;}
-	.gitLogo img{
-		width: 312px;
-	}
+	.gitLogo img{width: 296px !important; height: 296px !important; margin-top: -48px !important;}
 }
 @media (max-width: 768px) {
 	.shane_tm_hero .content{padding-right: 0px;width: 100%;}
@@ -2264,9 +2264,5 @@ body.loaded .overlay_effect:after{
 	.shane_tm_portfolio .portfolio_list ul li{padding: 0px;width: 100%;}
 	.shane_tm_news .news_list ul{margin: 0px;}
 	.shane_tm_news .news_list ul li{padding: 0px;width: 100%;}
-	.socialLink img{width: 48px; height: 48px;}
-	.gitLogo img{
-		width: 312px;
-	}
-	
+	.gitLogo img{width: 296px !important; height: 296px !important; margin-bottom: 0 !important;}
 }
