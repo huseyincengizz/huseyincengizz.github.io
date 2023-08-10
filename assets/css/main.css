@@ -1,31 +1,4 @@
 @charset "utf-8";
-/*
-/*	Copyright (c) 2021 Marketify
-/*	Author: Marketify
-/*	This file is made for CURRENT TEMPLATE
-
-
-01) SHANE BASE
-02) SHANE MOBILE MENU
-03) SHANE TOPBAR
-04) SHANE HERO
-05) SHANE ABOUT
-06) SHANE PORTFOLIO
-07) SHANE SKILLS
-08) SHANE VIDEO
-09) SHANE PARTNERS
-10) SHANE TESTIMONIALS
-11) SHANE NEWS
-12) SHANE TALK
-13) SHANE COPYRIGHT
-14) SHANE MODALBOX CONTACT
-15) SHANE CURSOR
-16) SHANE MEDIA QUERIES (FOR SMALL DEVIVES)
-
-
-/*---------------------------------------------------*/
-/*	01) SHANE BASE
-/*---------------------------------------------------*/
 
 html {
 	overflow-x: hidden;
@@ -51,25 +24,25 @@ img.svg{
 	width: 15px;
 	height: 15px;
 }
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+::-webkit-input-placeholder { 
     color: #6f6f6f;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { 
    color: #6f6f6f;
    opacity:  1;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+::-moz-placeholder { 
    color: #6f6f6f;
    opacity:  1;
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder { 
    color: #6f6f6f;
 }
-::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder { 
    color: #6f6f6f;
 }
 
-::placeholder { /* Most modern browsers support this now. */
+::placeholder { 
    color: #6f6f6f;
 }
 
@@ -107,9 +80,9 @@ h6 { font-size: 16px; }
 }
 .shane_tm_all_wrap,
 .shane_tm_all_wrap *{
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+	-webkit-box-sizing: border-box; 
+	   -moz-box-sizing: border-box; 
+			box-sizing: border-box; 
 }
 .shane_tm_section{
 	width: 100%;
@@ -214,7 +187,6 @@ h6 { font-size: 16px; }
     }
 }
 
-/*hiding all*/
 .preloaded .loader_line:after{
     opacity: 0;
 }
