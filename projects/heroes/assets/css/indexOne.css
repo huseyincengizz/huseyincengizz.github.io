@@ -1,0 +1,104 @@
+/* Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+ul,li{
+    list-style-type: none;
+}
+/* Reset CSS */
+.container{
+    margin: 0 auto;
+    display: flex;
+    background-image: url("../img/backgroundOne.png");
+    max-width: 1366px;
+    height: 768px;
+}
+.left{
+    background: rgba(255, 255, 255, 0.91);
+    max-width: 803px;
+    height: 768px;
+    background-color: rgba(white, white, white, 0.2);
+    padding-left: 103px;
+    padding-top: 40px;
+}
+.right{
+    padding-top: 53px;
+    width: 563px;
+    padding-left: 180px;
+}
+.logo{
+    margin-bottom: 140px;
+}
+h1{
+    font-size: 68px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 43px;
+}
+.getStarted{
+    background-color: #000;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 13px 24px;
+    margin-right: 20px;
+}
+.getStarted:hover{
+    background-color: royalblue;
+}
+a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+.rightLink{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 37px;
+    font-weight: bold;
+}
+.signUp{
+    background-color: #FFF;
+    border-radius: 39px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 11px 35px;
+    margin-left: 23px;
+}
+.signUp:hover{
+    background-color: royalblue;
+    color: #FFF;
+}

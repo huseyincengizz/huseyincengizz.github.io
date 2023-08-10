@@ -1,0 +1,120 @@
+/* Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #FFF;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+a{
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+/* Reset CSS */
+.container{
+    margin: 0 auto;
+    background-image: url('../img/backgroundSixOne.png'), url('../img/backgroundSixTwo.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, bottom;
+    background-color: #1B193F;
+    max-width: 1366px;
+    height: 824px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: 34px;
+    margin-bottom: 152px;
+}
+nav a{
+    margin-top: 37px;
+    margin-left: 16px;
+}
+nav a:hover{
+    color:gold;
+    font-weight: bold;
+}
+.signUp{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 39px;
+    background: rgba(255, 255, 255, 0.20);
+    padding: 11px 35px;
+}
+.signUp:hover{
+    border: 2px solid gold;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contentImg{
+    margin-left: -84px;
+}
+.contentText{
+    margin-left: 148px;
+}
+h1{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 52px;
+}
+input[type="email"]{
+    width: 352px;
+    height: 41px;
+    border-radius: 31px;
+    border: 0;
+    outline: 0;
+    padding-left: 25px;
+    font-weight: bolder;
+    color: #FFF;
+    background: rgba(255, 255, 255, 0.16);
+}
+::placeholder{
+    color: #FFF;
+}
+.mail{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 31px;
+    color: #000;
+    background: #FFF;
+    padding: 12px 24px;
+    margin-left: -48px;
+}
+.designerImg{
+    margin-top: -132px;
+}

@@ -1,0 +1,110 @@
+/* Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+ul,li{
+    list-style-type: none;
+}
+/* Reset CSS */
+.container{
+    margin: 0 auto;
+    display: flex;
+    background-image: url("../img/backgroundFour.png");
+    background-attachment: contain;
+    max-width: 1366px;
+    height: 768px;
+}
+.left{
+    background: #131212;
+    max-width: 803px;
+    height: 768px;
+    background-color: rgba(white, white, white, 0.2);
+    padding-left: 103px;
+    padding-top: 40px;
+}
+.right{
+    padding-top: 53px;
+    width: 563px;
+    padding-left: 180px;
+}
+.logo{
+    margin-bottom: 96px;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: normal;
+}
+h2{
+    font-size: 148px;
+    font-weight: 800;
+    margin-top: -48px;
+}
+p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.55;
+}
+h3{
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 372px;
+    margin-top: -48px;
+    margin-bottom: 32px;
+}
+.right{
+    margin-top: -32px;
+}
+.rightLink{
+    background-color: #000;
+    padding: 21px 15px;
+    margin-left: 300px;
+}
+.rightLink:hover{
+    background-color: transparent;
+    transform: scale(1.4);
+    transition: .8s;
+}
+.discoverImage{
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-left: 612px;
+}
+@keyframes anim{
+    from{
+        transform: translateY(60px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

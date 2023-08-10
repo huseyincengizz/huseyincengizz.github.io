@@ -1,0 +1,111 @@
+/* Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #FFF;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+a{
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+/* Reset CSS */
+.container{
+    margin: 0 auto;
+    background-image: url("../img/backgroundFive.png"), linear-gradient(to right, #fc466b, #3f5efb);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    max-width: 1366px;
+    height: 768px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: 34px;
+    margin-bottom: 152px;
+}
+nav a{
+    margin-top: 37px;
+    margin-left: 16px;
+}
+.signUp{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 39px;
+    background: #1B193F;
+    padding: 11px 35px;
+}
+.signUp:hover{
+    border: 1px solid deeppink;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.notificationImg{
+    margin-left: -144px;
+    margin-top: -28px;
+}
+.contentText{
+    margin-left: 148px;
+}
+h1{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 52px;
+}
+input[type="email"]{
+    width: 352px;
+    height: 41px;
+    border-radius: 31px;
+    border: 0;
+    outline: 0;
+    padding-left: 25px;
+    color: #FFF;
+    background: rgba(255, 255, 255, 0.16);
+}
+::placeholder{
+    color: #FFF;
+}
+.mail{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 31px;
+    background: #1B193F;
+    padding: 12px 24px;
+    margin-left: -48px;
+}

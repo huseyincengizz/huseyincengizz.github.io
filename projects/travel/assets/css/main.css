@@ -1,0 +1,896 @@
+h1{
+    color: #FFF;
+    font-size: 58.506px;
+    font-weight: 700;
+    line-height: 67.908px;
+    margin-bottom: 24px;
+}
+h2{
+    color: #181E4B;
+    text-align: center;
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 41px;
+}
+h4{
+    color: var(--black, #080809);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: 0.27px;
+}
+h5{
+    color: var(--text-heading-color, #1E1D4C);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+h6{
+    color: #DF6951;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+p{
+    color: var(--black, #000);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.alignCenter{
+    text-align: center;
+}
+.dFlex{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+.active{
+    text-decoration: underline 3px #DF6951;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+header{
+    background: url("../img/png/hero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 670px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 32px;
+}
+.touch{
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 12px 24px;
+    background-color: #DF6951;
+    
+}
+.touch:hover{
+    border: 2px solid #DF6951;
+    background-color: transparent;
+    font-weight: bold;
+}
+.menu a{
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 36px;
+}
+.menu a:hover{
+    text-decoration: underline 3px #DF6951;
+}
+.hero{
+    margin-left: 130px;
+    margin-top: 65px;
+}
+.events{
+    display: flex;
+    gap: 26px;
+}
+.event{
+    color: #FFF;
+    font-size: 12.537px;
+    font-weight: 500;
+    line-height: 37.611px;
+}
+.ticket{
+    width: 670px;
+    height: 72px;
+    border-radius: 5.224px;
+    background: rgba(243, 243, 243, 0.60);
+    backdrop-filter: blur(17.760618209838867px);
+    margin-bottom: 24px;
+}
+.ticket a{
+    color: #FFF;
+    margin-top: 12px;
+    margin-left: 32px;
+    color: #FFF;
+    font-size: 18.805px;
+    font-weight: 400;
+    line-height: normal;
+    border-right: 3px solid #D0D0D0;
+    padding-right: 32px;
+}
+.duration{
+    border-right: 0 !important;
+}
+.submit{
+    color: var(--white, #FFF);
+    font-size: 16.716px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background: #DF6951;
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+    border-right: 0 !important;
+}
+.sponsor{
+    display: flex;
+    gap: 120px;
+    background: #F7F7F7;
+    padding: 32px 64px;
+    margin-bottom: 110px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-bottom: 170px;
+}
+.services img{
+    margin-left: 36px;
+    height: 96px;
+    margin-bottom: 37px;
+}
+.category p{
+    color: var(--textclr, #5E6282);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.packages{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 16.716px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 8px 36.566px 19.403px 8px;
+    border-radius: 10px;
+    background: #DF6951;
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+}
+.packages:hover{
+    padding-top: 16px;
+    padding-left: 16px;
+    transition: 0.3s;
+}
+.honeymoon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 154px;
+}
+.honeymoon h5{
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.honeymoon h2{
+    color: #181E4B;
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 71.042px;
+    text-align: start;
+    margin-bottom: 19px;
+}
+.honeymoon p{
+    color: var(--black, #000);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 31px;
+}
+.honeymoon img{
+    padding-right: 122px;
+}
+.honeymoonContent{
+    margin-top: 48px;
+}
+.fastAndEasy{
+    background: url("../img/svg/fly.svg"), url("../img/png/plus.png");
+    background-repeat: no-repeat;
+    background-position: 124% -72px, 51% 94%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 127px;
+    margin-left: 130px;
+}
+.fastAndEasy h6{
+    color: #DF6951;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+.fastAndEasy h2{
+    margin-bottom: 31px;
+    text-align: start;
+}
+.title{
+    color: var(--textclr, #5E6282);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 124.5%;
+}
+.favourite{
+    display: flex;
+    gap: 21px;
+    margin-bottom: 42px;
+}
+.favourite img{
+    object-fit: contain;
+}
+.tripBox{
+    width: 370px;
+    height: 400px;
+    border-radius: 26px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00),
+    0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01),
+    0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    padding: 24px 25px;
+    margin-top: 66px;
+}
+.tripBox img{
+    margin-bottom: 24px;
+}
+.location{
+    display: flex;
+    gap: 18px;
+}
+.location img{
+    width: 22px;
+}
+.tripBox h4{
+    margin-bottom: 13px;
+}
+.tripBox p{
+    margin-bottom: 21px;
+}
+.like{
+    display: flex;
+    justify-content: space-between;
+}
+.like a{
+    color: var(--text-2, #84829A);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.32px;
+}
+.advert{
+    background: url("../img/png/america.png");
+    height: 399px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 85px;
+}
+.advert h2{
+    color: #FFF;
+    text-align: start;
+    text-transform: capitalize;
+    padding: 65px 180px 2px 180px;
+}
+.advert img{
+    margin-top: -41px;
+    margin-left: 640px;
+    width: 132px;
+}
+.promotion{
+    background: url("../img/png/eiffel.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 800px;
+    margin-left: 65px;
+    margin-bottom: 171px;
+}
+.promotion h6{
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    text-align: start;
+}
+.promotion h2{
+    text-align: start;
+    margin-bottom: 19px;
+}
+.promotion p{
+    margin-bottom: 31px;
+}
+.promotion .packages{
+    margin-bottom: 80px;
+}
+.cards{
+    display: flex;
+    gap: 56px;
+}
+.card{
+    width: 231px;
+    height: 237px;
+    border-radius: 10px;
+}
+.cardOne{
+    background: url("../img/png/promotionOne.png");
+}
+.cardTwo{
+    background: url("../img/png/promotionTwo.png");
+}
+.cardThree{
+    background: url("../img/png/promotionThree.png");
+}
+.cards a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    border-radius: 46px;
+    background: linear-gradient(136deg, #FF7255 0%, #BA4E38 100%);
+    padding: 6px 22px;
+    margin-left: 132px;
+    margin-top: 15px;
+}
+.explore{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.nature{
+    background: url("../img/png/nature.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 275px;
+}
+.cities{
+    background: url("../img/png/cities.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    height: 275px;
+}
+.explore{
+    margin-bottom: 112px;
+}
+.explore .packages{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+}
+.explore h2{
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 72px;
+    margin-bottom: 23px;
+}
+.trendy h6{
+    text-transform: uppercase;
+}
+.tourCards{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 110px;
+}
+.tourContent{
+    margin-top: -32px;
+}
+.flag{
+    margin-top: -54px;
+}
+.days{
+    margin-right: 27px;
+}
+.country{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.countryName{
+    color: #2F2F2F;
+    text-align: center;
+    font-size: 29.033px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.location{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+.location p{
+    color: #7D7D7D;
+    text-align: center;
+    font-size: 16.809px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.price{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 12px;
+}
+.dFlex p{
+    color: #7D7D7D;
+    text-align: center;
+    font-size: 16.809px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.tourText{
+    color: var(--black, #000);
+    font-size: 12.224px;
+    font-weight: 400;
+    line-height: 24.449px;
+    letter-spacing: 0.611px;
+    margin-bottom: 24px;
+}
+.discount{
+    color: #DF6951;
+    text-align: center;
+    font-size: 29.033px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.overline{
+    color: #7D7D7D;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+.blog{
+    background: url("../img/png/promotionBg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 528px;
+}
+.blog h5{
+    color: #DF6951;
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    padding-top: 64px;
+}
+.customer{
+    display: flex;
+    margin-left: 348px;
+}
+.customer img{
+    width: 164px;
+    height: 156px;
+}
+.bubble{
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px #B2B2B2;
+    width: 538px;
+    height: 200px;
+    margin: 20px;
+}
+.bubble::after {
+    background-color: #FFF;
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    content: "\00a0";
+    display: block;
+    height: 20px;
+    left: -10px;
+    position: relative;
+    bottom: 140px;
+    transform:rotate( 45deg );
+    width:  20px;
+}
+.bubble p{
+    color: var(--black, #000);
+    text-align: center;
+    font-size: 12.224px;
+    font-weight: 400;
+    line-height: 24.449px;
+    letter-spacing: 0.611px;
+    padding-top: 32px;
+}
+.bubble h5{
+    color: var(--black, #000);
+    text-align: center;
+    font-size: 12.224px;
+    font-weight: 700;
+    line-height: 24.449px;
+    letter-spacing: 0.611px;
+    margin-top: -48px;
+}
+footer{
+    background: url("../img/png/footerImg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.footer{
+    display: flex;
+    gap: 66px;
+    padding-top: 94px;
+    padding-left: 130px;
+}
+.social li{
+    margin-right: 8px;
+}
+.social p{
+    color: #757095;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+    margin-bottom: 31px;
+}
+.company h3, .destinations h3, .join h3{
+    margin-bottom: 24px;
+    color: #181433;
+    font-family: 'Manrope', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.company li{
+    display: block;
+    margin-bottom: 18px;
+}
+.destinations li{
+    display: block;
+    margin-bottom: 18px;
+}
+.joinText{
+    color: #181433;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+    opacity: 0.5;
+}
+input[type="email"] {
+    width: 240px;
+    height: 52px;
+    background: #EEF;
+    border: 0;
+    padding: 13px 15px;
+    margin-bottom: 21px;
+}
+.subscribe{
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+    border-radius: 10px;
+    background: #DF6951;
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+    padding: 13px 38px;
+    margin-left: -12px;
+}
+hr{
+    margin: 59px 130px 40px 130px;
+}
+.subFooter{
+    color: #181433;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+    margin-bottom: 44px;
+}
+
+/* About Page CSS */
+.aboutHeader{
+    background: url("../img/png/aboutBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 95px;
+}
+.aboutHero h2{
+    color: #FFF;
+    font-family: 'Yesteryear', cursive;
+    font-size: 157.426px;
+    font-weight: 400;
+    line-height: 223.678px;
+    margin-top: 112px;
+}
+.aboutPrText{
+    margin-top: 64px;
+}
+.aboutPromotion{
+    background: url("../img/png/promotionVaweBg.png"), url("../img/svg/promotionEllips.svg");
+    background-repeat: no-repeat;
+    background-position: 110% 120%, 93% -30px;
+    height: 612px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 65px;
+    margin-bottom: 132px;
+}
+.aboutPromotion h6{
+    text-transform: uppercase;
+    text-align: start;
+    margin-bottom: 2px;
+}
+.aboutPromotion h2{
+    text-align: start;
+    margin-bottom: 19px;
+}
+.aboutPromotion p{
+    margin-bottom: 31px;
+}
+.wanderlust{
+    background: url("../img/png/Wanderlust.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 409px;
+    margin-bottom: 107px;
+}
+.wanderlust h2{
+    color: #FFF;
+    font-family: 'Yesteryear', cursive;
+    font-size: 157.426px;
+    font-weight: 400;
+    line-height: 223.678px;
+    padding-top: 96px;
+    margin-left: 136px;
+}
+.play{
+    text-align: center;
+    margin-top: -184px;
+    margin-left: 84px;
+}
+.play img{
+    width: 84px;
+}
+.trend{
+    background: url("../img/png/seaShell.png");
+    background-repeat: no-repeat;
+    background-position: top right -50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 36px;
+    margin-bottom: 107px;
+}
+.trendContent{
+    margin-top: 118px;
+}
+.trend h6{
+    text-transform: uppercase;
+    text-align: start;
+    margin-bottom: 2px;
+}
+.trend h2{
+    text-align: start;
+    margin-bottom: 2px;
+}
+.trend p{
+    margin-bottom: 84px;
+}
+.ratio{
+    display: flex;
+    gap: 73px;
+}
+.ratio img{
+    object-fit: contain;
+}
+.aboutPackages h6{
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.aboutPackages h2{
+    margin-bottom: 68px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 52px 56px;
+    margin-bottom: 107px;
+}
+.galleryImage:hover .galleryText{
+    display: block;
+}
+.galleryImage:hover{
+    transform: scale(1.05);
+}
+.rio{
+    height: 636px;
+    grid-area: 1 / 3 / 3 / 3;
+}
+.galleryImage {
+    position: relative;
+    display: inline-block;
+}
+.galleryText {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #DF6951;
+    border-radius: 4px;
+    width: 288px;
+    display: none;
+}
+.galleryText p{
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+}
+/* About Page CSS */
+
+/* Travel Page CSS */
+.travelHeader{
+    background: url("../img/png/travel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -68px;
+}
+.travelContainer{
+    background: url("../img/png/shell.png");
+    background-repeat: no-repeat;
+    background-position: center right -4px;
+    background-size: 132px;
+}
+.filters{
+    margin-left: 122px;
+    width: 1072px;
+    margin-bottom: 171px;
+    background: #FFF;
+    box-shadow: 0px 4px 48px 12px rgba(0, 0, 0, 0.09);
+}
+.filter{
+    display: flex;
+    justify-content: space-around;
+    background: #F8F8F8;
+    padding: 56px 66px;
+}
+.filterIcon{
+    display: flex;
+    gap: 15px;
+}
+.filter img{
+    width: 18px;
+}
+.radius{
+    border-radius: 21px 21px 0px 0px;
+}
+.filterContent{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 72px;
+}
+.tripPlan{
+    width: 481px;
+    background: #EDEDED;
+    margin-bottom: 120px;
+    margin-right: 39px;
+}
+.tripPlan a{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 16.716px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 10px;
+    background: #DF6951;
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+    padding: 16px 47px;
+    margin-top: 32px;
+    margin-bottom: 45px;
+}
+.tripPlan input{
+    display: block;
+    margin-bottom: 9px;
+    padding: 26px 132px 24px 55px;
+    margin-left: 61px;
+    border: 0;
+}
+.tripPlan h3{
+    color: #181E4B;
+    text-align: center;
+    font-family: 'Volkhov', serif; 
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 39px;
+    padding-top: 39px;
+    margin-bottom: 9px;
+}
+.tripPlan p{
+    color: var(--black, #000);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.search{
+    background: url("../img/svg/search.svg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center left 30px;
+    background-size: 18px;
+}
+.whereTo{
+    background: url("../img/svg/where.svg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center left 30px;
+    background-size: 18px;
+}
+.date{
+    background: url("../img/svg/dateIcon.svg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center left 30px;
+    background-size: 18px;
+}
+.filterLeft{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 81px;
+    margin-top: 39px;
+    margin-left: 16px;
+}
+.tripPrice{
+    display: flex;
+    gap: 14px;
+}
+.tripPrice p{
+    margin-top: 11px;
+}
+.star{
+    display: flex;
+    gap: 4px;
+}
+.star p{
+    margin-top: 11px;
+}
+.star img{
+    margin-top: 7px;
+}
+/* Travel Page CSS */

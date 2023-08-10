@@ -1,0 +1,129 @@
+/* Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+a{
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+/* Reset CSS */
+.container{
+    margin: 0 auto;
+    background-image: url("../img/backgroundThree.png"), linear-gradient(to left, #141e30, #243b55);
+    background-position: 90% 80%;
+    background-repeat: no-repeat;
+    max-width: 1366px;
+    height: 768px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: 34px;
+    margin-bottom: 152px;
+}
+nav a{
+    margin-top: 37px;
+    margin-left: 16px;
+}
+nav a:hover{
+    color: darksalmon;
+}
+.tryFree{
+    color: #FFF;
+    background-color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.145px;
+    border-radius: 28px;
+    padding: 12px 24px;
+}
+.content{
+    padding-left: 128px;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 68px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+h1 span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: normal;
+}
+p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.55;
+    margin-bottom: 49px;
+}
+.contactUs{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 12px;
+    background: #3B5CFF;
+    padding: 10px 20px;
+}
+.contactUs:hover{
+    background-color: #FFF;
+    color: #3B5CFF;
+    border: 1px solid #3B5CFF;
+}
+.discover p{
+    text-align: center;
+    color: #FFF;
+    opacity: 1;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 48px;
+}
+.discoverImage{
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-left: 654px;
+    margin-top: -48px;
+    padding: 16px;
+}
+
+@keyframes anim{
+    from{
+        transform: translateY(30px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

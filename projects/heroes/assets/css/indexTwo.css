@@ -1,0 +1,112 @@
+/* Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+a{
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+/* Reset CSS */
+.container{
+    margin: 0 auto;
+    background-image: url("../img/indexTwoBg.png"), linear-gradient(to right, #ffefba, #ffffff);
+    background-position: right;
+    background-repeat: no-repeat;
+    max-width: 1366px;
+    height: 768px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: 34px;
+    margin-bottom: 152px;
+}
+nav a{
+    margin-top: 37px;
+    margin-left: 16px;
+}
+nav a:hover{
+    color: orangered;
+}
+.tryFree{
+    color: #FFF;
+    background-color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.145px;
+    border-radius: 28px;
+    padding: 12px 24px;
+}
+.tryFree:hover{
+    background-color: orangered;
+    color: #FFF;
+}
+.content{
+    padding-left: 128px;
+}
+.getStarted{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.145px;
+    border-radius: 28px;
+    background: #000;
+    padding: 12px 24px;
+    margin-right: 28px;
+}
+.getStarted:hover{
+    background-color: orangered;
+}
+.howTo{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.145px;
+    padding: 13px 14px;
+    border-radius: 28px;
+    background:olive;
+}
+h1{
+
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 72px; 
+    letter-spacing: -0.582px;
+    margin-bottom: 12px;
+
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.145px;
+    margin-bottom: 34px;
+}
