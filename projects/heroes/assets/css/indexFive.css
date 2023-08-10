@@ -109,3 +109,32 @@ input[type="email"]{
     padding: 12px 24px;
     margin-left: -48px;
 }
+.readMore{
+    display: inline-flex;
+    gap: 9px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 106.3%;
+    border-radius: 60px;
+    background: #FF7629;
+    padding: 16px 48px;
+}
+.next{
+    text-align: center;
+    margin-top: 64px;
+}
+.rightArrow{
+    animation-name: anim;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim{
+    from{
+        transform: translateX(30px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
