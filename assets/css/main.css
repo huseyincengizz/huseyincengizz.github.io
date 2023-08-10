@@ -2175,6 +2175,7 @@ body.loaded .overlay_effect:after{
 	.content{padding-left: 280px; margin-left: 0;}
 	.gitLogo img{width: 296px !important; height: 296px !important; margin-top: 48px !important;}
 	.gitLogom img{margin-top: 18px !important;}
+	.mainLogo{width: 60px;}
 }
 @media (max-width: 1600px) {
 	.container{max-width: 1070px;}
@@ -2189,6 +2190,7 @@ body.loaded .overlay_effect:after{
 	.content{padding-left: 102px;}
 	.gitLogo img{width: 296px !important; height: 296px !important; margin-top: 48px !important;}
 	.gitLogom img{margin-top: 18px !important;}
+	.mainLogo{width: 60px;}
 	
 }
 @media (max-width: 1040px) {
@@ -2229,6 +2231,7 @@ body.loaded .overlay_effect:after{
 	.shane_tm_button a{padding: 11px 35px;}
 	.shane_tm_classic_hero .name_wrap h3{font-size: 50px;}
 	.gitLogo img{width: 296px !important; height: 296px !important; margin-top: -48px !important;}
+	.mainLogo{width: 80px;}
 }
 @media (max-width: 768px) {
 	.shane_tm_hero .content{padding-right: 0px;width: 100%;}
@@ -2237,4 +2240,5 @@ body.loaded .overlay_effect:after{
 	.shane_tm_news .news_list ul{margin: 0px;}
 	.shane_tm_news .news_list ul li{padding: 0px;width: 100%;}
 	.gitLogo img{width: 296px !important; height: 296px !important; margin-bottom: 0 !important;}
+	.mainLogo{width: 60px;}
 }
