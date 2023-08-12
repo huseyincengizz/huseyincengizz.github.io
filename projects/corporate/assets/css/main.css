@@ -1,0 +1,486 @@
+/* body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+} */
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+h1{
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 23px;
+}
+h1 span{
+    color: #F54C1E;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 140%;
+}
+h2{
+    color: #031333;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 140%;
+}
+h3{
+    color: #031333;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 29px;
+}
+h4{
+    color: #031333;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h5{
+    color: #F54C1E;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 4.2px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+h6{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 140%;
+}
+header{
+    padding: 24px 130px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    margin-left: 36px;
+}
+nav a{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 56px;
+    margin-top: 16px;
+}
+.mobileNav{
+    display: none;
+}
+.mobileNav li{
+    display: block;
+}
+.hamburger{
+    display: none;
+}
+.today{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 100%;
+    border-radius: 5px;
+    background: #F54C1E;
+    padding: 14px 17px;
+    margin-top: 8px;
+}
+.hero{
+    background: url("/assets/img/svg/whiteDotted.svg"), url("/assets/img/svg/portre.svg"), url("/assets/img/svg/whiteDotted.svg");
+    background-color: #031333;
+    background-repeat: no-repeat;
+    background-position: bottom 24px left, right 58px, top 24px right 10px;
+    height: 670px;
+    padding-top: 130px;
+    padding-left: 130px;
+    margin-bottom: 141px;
+}
+.hero p{
+    color: #F4F3F3;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 23px;
+}
+.services{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    border-radius: 2px;
+    background: #F54C1E;
+    padding: 14px 17px;
+}
+.features{
+    margin-bottom: 140px;
+}
+.features h2{
+    margin-bottom: 76px;
+}
+.care{
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+}
+.care p{
+    color: #949494;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.care img{
+    margin-left: 108px;
+    margin-bottom: 34px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 140px;
+    margin-left: 130px;
+}
+.aboutImage{
+    background: url("/assets/img/png/orangeDotted.png");
+    background-repeat: no-repeat;
+    background-position: top right 46px;
+    display: flex;
+    gap: 26px;
+}
+.aboutTextMobile{
+    display: none;
+}
+.whoTextMobile{
+    display: none;
+}
+.influencer{
+    padding-top: -48px;
+}
+.laptop{
+    padding-top: 48px;
+}
+.about p{
+    color: #818181;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 26px;
+}
+.about h5{
+    text-align: start;
+}
+.phoneNumber{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    border-radius: 2px;
+    background: #F54C1E;
+    padding: 14px 17px;
+}
+.ourServices{
+    background-color: #031333;;
+    margin-bottom: 123px;
+}
+.ourServices h5{
+   padding-top: 123px;
+}
+.ourServices h2{
+    color: #FFF;
+    padding-bottom: 74px;
+}
+.technical{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.technical h6{
+    margin-bottom: 20px;
+}
+.technical p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.technicalOne, .technicalTwo{
+    width: 514px;
+    height: 639px;
+    margin-bottom: 123px;
+    padding-top: 370px;
+    padding-left: 37px;
+    padding-right: 89px;
+}
+.technicalOne{
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/technical.png");
+}
+.technicalTwo{
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/tecnicalTwo.png");
+}
+.who{
+    background: url("/assets/img/png/orangeDotted.png");
+    background-repeat: no-repeat;
+    background-position: bottom 13px left;
+}
+.financial{
+    margin-top: -160px;
+    margin-left: 204px;
+}
+.projects{
+    margin-bottom: 130px;
+}
+.projects h2{
+    margin-bottom: 86px;
+}
+.projectCards{
+    display: flex;
+    gap: 29px;
+}
+.projectCardOne, .projectCardTwo, .projectCardThree, .projectCardFour{
+    width: 383px;
+    height: 484px;
+    padding-top: 328px;
+    padding-left: 24px;
+}
+.projectCardOne{
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/analysis.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.projectCardTwo{
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/analysisTwo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projectCardThree{
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/analysisThree.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projectCardFour{
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/analysisFour.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projectCards p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.projectCards h6{
+    font-size: 28px;
+}
+.consultations{
+    background: url("/assets/img/png/consultations.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 380px;
+    margin-bottom: 130px;
+    padding-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 148px;
+}
+.consultations h2{
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 149.5%;
+}
+.freeButton{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 14px 17px;
+    border-radius: 2px;
+    background: #F54C1E;
+    margin-top: 48px;
+}
+.teamMember{
+    background: url("/assets/img/png/orangeDotted.png"), url("/assets/img/png/orangeDotted.png");
+    background-repeat: no-repeat;
+    background-position: bottom left -60px, top right -60px;
+    margin-bottom: 130px;
+}
+.teamMember h2{
+    margin-bottom: 80px;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.team h5{
+    color: #071440;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 26px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.team p{
+    color: #676972;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.36px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+.teamCard{
+    background-color: #F5F5F5;
+    border-radius: 12px 12px 0px 0px;
+}
+.subscribe{
+    background-color: #F3F3F3;
+    height: 327px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-right: 65px;
+    margin-bottom: 105px;
+}
+.subscribeContent{
+    border-right: 1px solid #000;
+    padding-right: 80px;
+}
+.subscribe h2{
+font-size: 28px;
+font-weight: 600;
+line-height: 159.5%;
+text-align: start;
+margin-bottom: 20px;
+}
+.subscribe p{
+    color: #000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+}
+.getStarted{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 14px 17px;
+    border-radius: 2px;
+    background: #F54C1E;
+}
+footer{
+    background-color: #031333;;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 132px;
+    height: 412px;
+    padding-top: 124px;
+}
+.footerLogo{
+    margin-bottom: 25px;
+}
+.footer a{
+    color: #FFF;
+}
+.footer li{
+    display: block;
+    margin-bottom: 24px;
+    color: #FFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+}
+.footer p{
+    color: #FDFDFD;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 180%;
+    margin-bottom: 41px;
+}
+.footer h5{
+    color: #FFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 180%;
+}
+.social li{
+    display: inline-block;
+    padding-right: 32px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 450px)  {
+    .container{max-width: 375px; margin: 0 auto;}
+    header{padding: 16px;}
+    .today{display: none;}
+    nav{display: none;}
+    .mobileNav{display: none; border-top: 2px solid #031333;}
+    .mobileNav li{padding: 16px;}
+    .hamburger{display: block; margin-top: 4px;}
+    .hero{ background-position: bottom 24px left, left 58px, top 24px right 10px; padding-left: 16px; padding-top: 324px;}
+    .heroText{display: none;}
+    h1{font-size: 24px;}
+    h1 span{font-size: 24px;}
+    .care{display: block;}
+    .care img{margin-left: 164px;}
+    .care div{margin-bottom: 32px;}
+    .about{grid-template-columns: 1fr; margin-left: 16px; margin-bottom: 64px;}
+    .about h5{margin-top: 32px;}
+    .aboutText{display: none;}
+    .whoText{display: none;}
+    .aboutTextMobile{display: block;}
+    .whoTextMobile{display: block;}
+    .ourServices{background-color: #FFF;}
+    .ourServices h2{color: #000;}
+    .who{background: none;}
+    .who h5{margin-top: 48px;}
+    .who img{margin-left: -8px;}
+    .influencer{display: none;}
+    .technical{display: block;}
+    .technical h6{font-size: 26px;}
+    .technicalOne, .technicalTwo{width: 375px; height: 672px; background-repeat: no-repeat; background-size: cover; margin-bottom: 32px;}
+    .teamCard p{padding-bottom: 32px;}
+    .financial{display: none;}
+    .projectCards{display: block;}
+    .projectCardOne, .projectCardTwo, .projectCardThree, .projectCardFour{width: 375px; margin-bottom: 32px;}
+    .projectCardOne{background-repeat: no-repeat; background-size: cover;}
+    .projectCardTwo{background-repeat: no-repeat; background-size: cover;}
+    .projectCardThree{background-repeat: no-repeat; background-size: cover;}
+    .projectCardFour{background-repeat: no-repeat; background-size: cover;}
+    .consultations{display: none;}
+    .team{display: block;}
+    .subscribe{display: block; height: 480px; width: 375px; padding-top: 60px; padding-left: 48px;}
+    .subscribe p{margin-bottom: 24px;}
+    .subscribeContent{border: none;}
+    .footer{display: block; height: auto; text-align: center; padding-bottom: 32px; padding-top: 64px;}
+    .footerLogo{margin-left: 142px;}
+    
+}
+/* Media Query */
