@@ -98,7 +98,7 @@ nav a{
     margin-top: 8px;
 }
 .hero{
-    background: url("/assets/img/svg/whiteDotted.svg"), url("/assets/img/svg/portre.svg"), url("/assets/img/svg/whiteDotted.svg");
+    background: url("/projects/corporate/assets/img/svg/whiteDotted.svg"), url("/projects/corporate/assets/img/svg/portre.svg"), url("/projects/corporate/assets/img/svg/whiteDotted.svg");
     background-color: #031333;
     background-repeat: no-repeat;
     background-position: bottom 24px left, right 58px, top 24px right 10px;
@@ -154,7 +154,7 @@ nav a{
     margin-left: 130px;
 }
 .aboutImage{
-    background: url("/assets/img/png/orangeDotted.png");
+    background: url("/projects/corporate/assets/img/png/orangeDotted.png");
     background-repeat: no-repeat;
     background-position: top right 46px;
     display: flex;
@@ -226,13 +226,13 @@ nav a{
     padding-right: 89px;
 }
 .technicalOne{
-    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/technical.png");
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/projects/corporate/assets/img/png/technical.png");
 }
 .technicalTwo{
-    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/tecnicalTwo.png");
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/projects/corporate/assets/img/png/tecnicalTwo.png");
 }
 .who{
-    background: url("/assets/img/png/orangeDotted.png");
+    background: url("/projects/corporate/assets/img/png/orangeDotted.png");
     background-repeat: no-repeat;
     background-position: bottom 13px left;
 }
@@ -257,23 +257,23 @@ nav a{
     padding-left: 24px;
 }
 .projectCardOne{
-    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/analysis.png");
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/projects/corporate/assets/img/png/analysis.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .projectCardTwo{
-    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/analysisTwo.png");
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/projects/corporate/assets/img/png/analysisTwo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .projectCardThree{
-    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/analysisThree.png");
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/projects/corporate/assets/img/png/analysisThree.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .projectCardFour{
-    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/assets/img/png/analysisFour.png");
+    background: linear-gradient(1deg, #FD5C30 0%, rgba(0, 0, 0, 0.00) 100%), url("/projects/corporate/assets/img/png/analysisFour.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -287,7 +287,7 @@ nav a{
     font-size: 28px;
 }
 .consultations{
-    background: url("/assets/img/png/consultations.png");
+    background: url("/projects/corporate/assets/img/png/consultations.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 380px;
@@ -316,7 +316,7 @@ nav a{
     margin-top: 48px;
 }
 .teamMember{
-    background: url("/assets/img/png/orangeDotted.png"), url("/assets/img/png/orangeDotted.png");
+    background: url("/projects/corporate/assets/img/png/orangeDotted.png"), url("/projects/corporate/assets/img/png/orangeDotted.png");
     background-repeat: no-repeat;
     background-position: bottom left -60px, top right -60px;
     margin-bottom: 130px;
