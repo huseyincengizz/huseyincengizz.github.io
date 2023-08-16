@@ -1,0 +1,960 @@
+header{
+    width: 1320px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 35px 0 35px;
+}
+.header li{
+    padding-right: 88px;
+}
+.navbar a:hover{
+    color: #FA8305;
+}
+.contact{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 6px;
+    background: #FA9021;
+    padding: 11px 27px;
+    margin-left: -36px;
+}
+.contact:hover{
+    color: #FA9021;
+    background-color: transparent;
+    border: 1px solid #FA9021;
+    font-weight: bold;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 135px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 155.2%;
+    margin-bottom: 16px;
+}
+h6{
+    color: #E87D0E;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 155.2%;
+}
+.alignCenter{
+    text-align: center;
+    margin-bottom: 105px;
+}
+.none{
+    display: none;
+}
+.active{
+    border-bottom: 2px solid #E47500;
+}
+.hamburger{
+    display: none;
+}
+.mobileNav{
+    display: none;
+}
+.hero{
+    background: url("/projects/gaming/assets/img/png/joystick.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right -44px;
+    height: 600px;
+    margin-top: -88px;
+}
+.heroText{
+    padding-top: 172px;
+}
+.heroText h6{
+    margin-bottom: 16px;
+}
+.heroText p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 200%;
+    margin-bottom: 16px;
+}
+.getMore{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 14px 30px;
+    border-radius: 40px;
+    background: linear-gradient(113deg, #FA8305 0%, #FB9E3C 100%);
+}
+.getMore:hover{
+    color: #FA9021;
+    background: transparent;
+    border: 1px solid #FA9021;
+    font-weight: bold;
+}
+.trending{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;
+    margin-bottom: 50px;
+}
+.trending h5{
+    font-family: 'Rubik', sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 187.5%;
+}
+.see{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 187.5%;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.11);
+}
+.trendingCard{
+    display: flex;
+    gap: 47px;
+}
+.trendingCardText{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 129px;
+}
+.trendingCardText p{
+    margin-top: 8px;
+}
+.trendImg{
+    margin-bottom: 25px;
+}
+.dummy h4{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 187.5%;
+    margin-bottom: 67px;
+}
+.dummy h5{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 187.5%;
+    margin-bottom: 32px;
+}
+.dummy p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 187.5%;
+    margin-bottom: 46px;
+}
+.spider{
+    margin-bottom: 157px;
+}
+.platform{
+    background: url("/projects/gaming/assets/img/png/platform.png"), lightgray 50% / cover no-repeat;
+    height: 880px;
+    margin: 0 -105px;
+    margin-bottom: 148px;
+}
+.platform h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 187.5%;
+    padding-top: 93px;
+    margin-bottom: 25px;
+}
+.platform p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 187.5%;
+    margin-bottom: 99px;
+}
+.platformCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    gap: 54px;
+    text-align: center;
+}
+.platformCard p{
+    padding-top: 45px;
+    margin-bottom: 22px;
+}
+.icon{
+    margin-left: 148px;
+}
+.arrow{
+    margin-left: 172px;
+}
+.ourProjects h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 187.5%;
+    margin-bottom: 15px;
+}
+.ourProjects p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 187.5%;
+    margin-bottom: 71px;
+}
+.projectImage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 72px;
+}
+.projectImage img{
+    width: 334px;
+    height: 194px;
+    object-fit: contain;
+}
+.subscribe h5{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 187.5%;
+    margin-bottom: 16px;
+}
+.subscribe p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 187.5%;
+    margin-bottom: 74px;
+}
+.subscribeBox{
+    border-radius: 15px;
+    background: #1C140F;
+    height: 189px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 56px;
+    margin-bottom: 163px;
+}
+.subscribeBox h4{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+}
+.subscribeBox p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+}
+input[type="email"]{
+    padding: 14px 0 14px 20px;
+    width: 385px;
+    height: auto;
+    outline: 0;
+    border: 0;
+}
+.continue{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 0 8px 8px 0;
+    background: #DC7000;
+    padding: 18px 13px 16px 22px;
+    margin-left: -64px;
+}
+footer{
+    margin: 0 -105px;
+    background: #070707;
+    padding: 80px 100px;
+}
+footer li{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 186.3%;
+}
+.footerText{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 96px;
+    margin-bottom: 56px;
+}
+.footer h5{
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+}
+.contactUs p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.subFooter{
+    text-align: center;
+}
+hr{
+    margin-bottom: 29px;
+}
+.social li{
+    display: inline;
+}
+
+/* About Page CSS */
+.aboutHero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 35px;
+    margin-bottom: 144px;
+}
+.aboutHero h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 180.5%;
+    margin-top: 38px;
+    margin-bottom: 25px;
+}
+.aboutHero p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 208.5%;
+    margin-bottom: 57px;
+}
+.touch{
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 40px;
+    background: linear-gradient(113deg, #FA8305 0%, #FB9E3C 100%);
+    padding: 10px 32px 10px 19px;
+}
+.aboutHeroContent{
+    margin-top: 64px;
+}
+.aboutHeroContent span{
+    color: #E47500;
+}
+.aboutHeroImage{
+    margin-right: -140px;
+}
+.work{
+    margin-bottom: 147px;
+}
+.work h5{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 180.5%;
+    margin-bottom: 63px;
+}
+.workCards{
+    display: flex;
+    gap: 43px;
+}
+.workCard{
+    width: 378px;
+    border-radius: 20px;
+    background: #1C140F;
+    box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 37px;
+}
+.workCard h6{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 187.5%;
+    border-radius: 8px;
+    color: #FFF;
+    background: rgba(176, 0, 220, 0.11);
+    padding: 7px 35px 6px 14px;
+    margin-bottom: 19px;
+    margin-top: 64px;
+}
+.workCard h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 187.5%;
+    margin-bottom: 16px;
+}
+.workCard p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 187.5%;
+    margin-bottom: 64px;
+}
+.indistury{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 95px;
+    margin-bottom: 148px;
+}
+.indistury h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 202.5%;
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+.indistury h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 157.5%;
+    margin-bottom: 14px;
+}
+.indistury p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 202.5%;
+}
+.ourTeam{
+    margin-bottom: 157px;
+}
+.ourTeam h5{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 180.5%;
+    margin-bottom: 53px;
+}
+.ourTeamCards{
+    display: flex;
+    gap: 28px;
+}
+.ourTeamCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 295px;
+    border-radius: 20px;
+    background: #1C140F;
+}
+.ourTeamCard h6{
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 202.5%;
+}
+.ourTeamCard{
+    color: #E8E8E8;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 202.5%;
+}
+/* About Page CSS */
+
+/* Services Page CSS */
+.servicesHero{
+    margin-top: 120px;
+}
+.servicesHero span{
+    color: #E47500;
+}
+.servicesLinks{
+    text-align: center;
+}
+.servicesHero a{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 208.5%;
+}
+.servicesHero h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 180.5%;
+    margin-bottom: 13px;
+}
+.servicesHero p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 187.5%;
+    margin-bottom: 45px;
+}
+.servicesBox{
+    display: flex;
+    border-radius: 10px;
+    background: #1C140F;
+    padding: 67px 86px;
+    gap: 120px;
+    margin-bottom: 130px;
+    margin-left: 32px;
+}
+.servicesBoxCard{
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+}
+.boxes{
+    border-right: 1px solid;
+    padding-right: 118px;
+}
+.server{
+    border-right: none;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 96px;
+    margin-bottom: 190px;
+}
+.videoArea{
+    background: url("/projects/gaming/assets/img/png/spider.png");
+    background-repeat: no-repeat;
+    height: 354px;
+}
+.videoContent h4{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 180.5%;
+}
+.play{
+    text-align: center;
+    margin-top: 143px;
+}
+.list{
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+    margin-bottom: 19px;
+}
+.list p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+.readMore{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    background: #DC7000;
+    padding: 13px 44px;
+}
+.readMore:hover{
+    color: #FA9021;
+    background-color: transparent;
+    border: 1px solid #FA9021;
+    font-weight: bold;
+}
+.read{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 138px;
+    margin-bottom: 180px;
+}
+.readContent h4{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 43px;
+}
+.readContent p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 46px;
+}
+.readImage{
+    width: 496px;
+    height: 448px;
+}
+.customer{
+    width: 1320px;
+    margin: 0 -105px;
+    margin-bottom: 164px;
+}
+.customer h2{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 20px;
+    padding-top: 88px;
+}
+.customer p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 187.5%;
+    margin-bottom: 68px;
+}
+.customerCards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.customerCard{
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    border: 2px solid #DC7000;
+    background: #0F0901;
+    padding: 30px;
+}
+.userAvatar{
+    display: flex;
+    gap: 20px;
+}
+.userAvatar p{
+    color: #4F5665;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+.point{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.star{
+    margin-top: 4px;
+}
+.customerCard p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 187.5%;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nextAndPrev{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+/* Services Page CSS */
+
+/* News Page CSS */
+.newsHero{
+    margin-top: 120px;
+}
+.newsHero span{
+    color: #E47500;
+}
+.newsLinks{
+    text-align: center;
+}
+.newsHero a{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 208.5%;
+}
+.newsHero h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 180.5%;
+    margin-bottom: 13px;
+}
+.newsHero p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 187.5%;
+    margin-bottom: 45px;
+}
+.search{
+    background: url("/projects/gaming/assets/img/png/search.png");
+    background-repeat: no-repeat;
+    background-position: left 25px center;
+    padding-left: 59px !important;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #1C140F;
+    outline: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 189.5%;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 80px;
+}
+.status{
+    display: flex;
+    gap: 20px;
+}
+.status p{
+    color: #FFFCFC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 187.5%;
+    background: #2351F5;
+    padding: 9px 30px;
+}
+.status span{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 187.5%;
+    margin-top: 12px;
+}
+.leftContent{
+    margin-right: 78px;
+}
+.leftContent img{
+    margin-bottom: 21px;
+}
+.leftContent h4{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 32px;
+    margin-top: -32px;
+}
+.leftContent p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 207.8%;
+    margin-bottom: 90px;
+}
+.leftContent hr{
+    margin-bottom: 90px;
+}
+.news{
+    display: flex;
+    gap: 31px;
+    margin-bottom: 78px;
+}
+.news .status{
+    margin-bottom: 21px;
+}
+.news p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+.news .status p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+/* News Page CSS */
+
+/* Contact Page CSS */
+.follow p{
+    margin-left: 16px;
+}
+.location{
+    margin-top: 93px;
+    margin-bottom: 66px;
+}
+.communication{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    margin-bottom: 163px;
+}
+.telephone, .map{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.map p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+}
+.form{
+    background: url("/projects/gaming/assets/img/svg/orangeLine.svg"), url("/projects/gaming/assets/img/svg/orangeLine.svg");
+    background-color: #1C140F;
+    background-repeat: no-repeat;
+    background-position: top right, bottom -70px left;
+    margin: 0 -140px;
+    padding-top: 54px;
+    margin-bottom: 150px;
+}
+.forms{
+    margin-left: 335px;
+}
+.form h3{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%;
+    text-align: center;
+}
+.form p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 189.5%;
+    margin-bottom: 79px;
+}
+.form input[type="text"]{
+    color: #FFF;
+    width: 322px;
+    height: 56px;
+    border-radius: 9px;
+    border: 0.6px solid #CECECE;
+    background: rgba(255, 255, 255, 0.07);
+    margin-bottom: 20px;
+    outline: 0;
+}
+.form input[type="email"]{
+    color: #FFF;
+    width: 671px;
+    height: 56px;
+    border-radius: 9px;
+    border: 0.6px solid #CECECE;
+    background: rgba(255, 255, 255, 0.07);
+    margin-bottom: 20px;
+}
+td{
+    text-align: start;
+}
+textarea{
+    color: #FFF;
+    width: 671px;
+    height: 232px;
+    border-radius: 9px;
+    border: 0.6px solid #CECECE;
+    background: rgba(255, 255, 255, 0.07);
+    margin-bottom: 50px;
+    outline: 0;
+}
+.firstName{
+    margin-right: 16px;
+}
+.alignRight{
+    text-align: right;
+}
+.touchButton{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 204.3%;
+    border-radius: 10px;
+    background: #DC7000;
+    padding: 10px 48px;
+    margin-right: 321px;
+    margin-bottom: 63px;
+}
+.touchButton:hover{
+    color: #FA9021;
+    background-color: transparent;
+    border: 1px solid #FA9021;
+    font-weight: bold;
+}
+/* Contact Page CSS */
+
+/* Animations */
+@keyframes anim{
+    from{
+        transform: translateX(30px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.rightArrow{
+    animation-name: anim;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+}
+/* Animations */
+
+/* Media Query */
+@media only screen and (max-width: 450px) {
+    .navbar{display: none;}
+    .contact{display: none;}
+    .container{width: 375px; margin:0 auto; padding: 0;}
+    header{width: 375px;}
+    .header{padding: 16px;}
+    .hamburger{display: block; width: 48px; height: 48px; margin-top: -17px;}
+    .mobileNav{display: none; background-color: #000; margin-bottom: 16px;}
+    .mobileNav li{display: block; background-color: #E47500;}
+    .mobileNav a{color: #FFF; font-weight: bold; padding: 16px;}
+    .hero{width: 375px; margin-top: 0; background: none;}
+    .heroText{padding: 16px;}
+    .textHero{display: none;}
+    h1{font-size: 36px;}
+    .trending{display: block; margin-top: -36px;}
+    .trending h5{text-align: center;}
+    .spider{margin-bottom: 0;}
+    .see{display: none;}
+    .trendingCard{display: block; margin-left: 64px;}
+    .trendingCardText{justify-content: center; margin-right: 64px;}
+    .textDummy{display: none;}
+    .platform{width: 375px; margin: 0 auto; background: none; height: auto; margin-bottom: 96px;}
+    .platformCards{display: flex; flex-direction: column; justify-content: flex-start; align-items: center;}
+    .platformCard img{margin-right: 128px;}
+    .headPlatform{display: none;}
+    .textPlatform{display: none;}
+    .projectImage{grid-template-columns: 1fr; margin-left: 20px;}
+    .subscribeBox{display: block; height: auto;}
+    .none{display: block; margin: 16px 0;}
+    .subscribeText{display: none;}
+    input[type="email"]{width: 280px;}
+    .continue{margin: 16px 80px; border-radius: 8px; padding: 16px 32px;}
+    footer{margin: 0 auto; padding: 0; padding-top: 76px; text-align: center;}
+    .footer{grid-template-columns: 1fr; width: 375px; gap: 64px;}
+    .subFooter hr{margin: 16px;}
+    .subFooter p{padding-bottom: 16px;}
+    /* About Page Media */
+    .aboutHero{display: flex; flex-direction: column-reverse;}
+    .workCards{flex-direction: column; width: 375px;}
+    .workCard{width: 375px;}
+    .indistury{grid-template-columns: 1fr; gap: 32px;}
+    .ourTeamCards{display: grid; grid-template-columns: 1fr;}
+    .ourTeamCard{margin-left: 42px;}
+    .aboutHeroImage{margin: 0 auto; width: 375px;}
+    /* About Page Media */
+    /* Services Page Media */
+    .servicesHero{margin-top: 0;}
+    .servicesBox{flex-direction: column; margin: 0 auto;}
+    .boxes{border: none; padding-right: 16px;}
+    .videos{grid-template-columns: 1fr; margin-top: 64px; gap: 36px;}
+    .read{grid-template-columns: 1fr; gap: 36px; margin-bottom: 96px;}
+    .readReverse{display: flex; flex-direction: column-reverse;}
+    .customer{width: 375px; margin: 0 auto;}
+    .customerCard{width: 375px; height: auto;}
+    .customerCards{flex-direction: column;}
+    .nextAndPrev{margin-bottom: 96px;}
+    /* Services Page Media */
+    /* News Page Media */
+    .newsHero{margin-top: 0;}
+    .content{grid-template-columns: 1fr;}
+    .leftContent{margin: 0 16px;}
+    .rightContent{margin: 0 16px;}
+    .status p{padding: 9px;}
+    .news p{font-size: 16px; margin-top: -4px;}
+    .leftContent hr{display: none;}
+    /* News Page Media */
+    /* Contact Page Media */
+    .communication{flex-direction: column; gap: 64px; margin-left: 6px;}
+    .follow{margin-left: -12px;}
+    .form{margin: 0 auto 96px auto;}
+    .forms{margin: 0 16px;}
+    .lastName{display: none;}
+    .form input[type="email"]{width: 322px;}
+    textarea{width: 322px;}
+    .touchButton{margin: -16px 38px 64px 38px; padding: 10px 24px;}
+    /* Contact Page Media */
+}
+/* Media Query */
