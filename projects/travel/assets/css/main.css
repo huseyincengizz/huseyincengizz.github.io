@@ -965,7 +965,7 @@ hr{
     .tripPlan{width: 375px;}
     .travelImage{display: none;}
     .filterRight{width: 375px; margin-bottom: -120px;}
-    .filterRight input[type="text"]{margin-left: 10px;}
+    .filterRight input[type="text"]{margin-left: 42px; width: 294px;}
     .book{padding-bottom: 96px;}
     .whiteHamburger{width: 48px;}
     /* Travel Page Media*/
