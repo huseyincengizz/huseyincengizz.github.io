@@ -50,6 +50,9 @@ p{
     gap: 8px;
     margin-bottom: 14px;
 }
+.none{
+    display: none;
+}
 .active{
     text-decoration: underline 3px #DF6951;
 }
@@ -95,6 +98,12 @@ header{
 }
 .menu a:hover{
     text-decoration: underline 3px #DF6951;
+}
+.mobileMenu{
+    display: none;
+}
+.hamburger{
+    display: none;
 }
 .hero{
     margin-left: 130px;
@@ -573,6 +582,9 @@ footer{
     display: block;
     margin-bottom: 18px;
 }
+.mb24{
+    margin-bottom: 24px;
+}
 .destinations li{
     display: block;
     margin-bottom: 18px;
@@ -894,3 +906,68 @@ hr{
     margin-top: 7px;
 }
 /* Travel Page CSS */
+
+/* Media Query */
+@media only screen and (max-width: 450px)  {
+    .container{max-width: 375px; margin: 0 auto;}
+    header{width: 375px; background-size: cover;}
+    .navbar{padding: 16px;}
+    .menu{display: none;}
+    .touch{display: none;}
+    .mobileMenu{background-color: #FFF;}
+    .mobileMenu li{display: block;}
+    .mobileMenu a{padding: 4px; font-size: 20px;}
+    .hamburger{display: block;}
+    .hero{margin: 0; margin-top: 90px;}
+    h1{font-size: 30px; line-height: 44px; margin-top: 16px;}
+    .ticket{width: 375px;}
+    .ticket a{font-size: 14px; padding: 7px; margin-left: 6px;}
+    .event{line-height: 16px;}
+    .sponsor{flex-direction: column; align-items: center;}
+    .services{flex-direction: column; justify-content: center; align-items: center;}
+    .honeymoon{grid-template-columns: 1fr;}
+    .fastAndEasy{grid-template-columns: 1fr; background: none; margin-left: 0;}
+    .advert{display: none;}
+    .promotion{background: none; margin-left: 0; margin-bottom: 800px;}
+    .cards{flex-direction: column; align-items: center; justify-content: center;}
+    .explore{display: none;}
+    .tourCards{flex-direction: column; gap: 84px;}
+    .tourText{display: none;}
+    .blog{width: 375px; margin-bottom: 170px;}
+    .customer{flex-direction: column; height: auto; margin: 0; padding: 0;}
+    .bubble{width: 375px; margin: 0;}
+    .bubble::after{content: none;}
+    .footer{flex-direction: column;}
+    input[type="email"] {margin-left: -106px; margin-top: 10px;}
+    .subscribe{padding: 16px;}
+    .joinText{margin-left: -106px;}
+    /* About Page Media*/
+    .aboutHero h2{line-height: 164px; margin-top: 100px;}
+    .aboutPromotion{flex-direction: column-reverse; margin-left: 0; margin-bottom: 264px;}
+    .promotionImage{display: none;}
+    .wanderlust{display: none;}
+    .trend{grid-template-columns: 1fr;}
+    .ratio{flex-direction: column; align-items: center;}
+    .gallery{grid-template-columns: 1fr; margin-left: 0; margin-left: 6px;}
+    .rio{display: none;}
+    /* About Page Media*/
+    /* Travel Page Media*/
+    .travelContainer{width: 375px;}
+    .travelHero h2{font-size: 104px; line-height: 124px;}
+    .filters{width: 375px; margin-left: 0; margin-bottom: -132px;}
+    .filter{flex-direction: column; gap: 42px;}
+    .filter a{font-size: 12px;}
+    .filterContent{grid-template-columns: 1fr;}
+    .filterLeft{grid-template-columns: 1fr; gap: 48px;}
+    .filterLeft p{text-align: start;}
+    .none{display: block;}
+    .countryText{display: none;}
+    .tripPlan{width: 375px;}
+    .travelImage{display: none;}
+    .filterRight{width: 375px; margin-bottom: -120px;}
+    .filterRight input[type="text"]{margin-left: 10px;}
+    .book{padding-bottom: 96px;}
+    .whiteHamburger{width: 48px;}
+    /* Travel Page Media*/
+}
+/* Media Query */
