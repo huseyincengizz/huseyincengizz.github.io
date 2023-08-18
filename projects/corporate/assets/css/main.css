@@ -77,6 +77,12 @@ nav a{
     margin-right: 56px;
     margin-top: 16px;
 }
+nav a:hover{
+    color: #F54C1E;
+}
+.active{
+    border-bottom: 3px solid #F54C1E;
+}
 .mobileNav{
     display: none;
 }
@@ -96,6 +102,11 @@ nav a{
     background: #F54C1E;
     padding: 14px 17px;
     margin-top: 8px;
+}
+.today:hover{
+    background-color: transparent;
+    color: #F54C1E;
+    border: 1px solid #F54C1E;
 }
 .hero{
     background: url("/projects/corporate/assets/img/svg/whiteDotted.svg"), url("/projects/corporate/assets/img/svg/portre.svg"), url("/projects/corporate/assets/img/svg/whiteDotted.svg");
@@ -124,6 +135,11 @@ nav a{
     border-radius: 2px;
     background: #F54C1E;
     padding: 14px 17px;
+}
+.services:hover{
+    background-color: transparent;
+    color: #F54C1E;
+    border: 1px solid #F54C1E;
 }
 .features{
     margin-bottom: 140px;
@@ -315,6 +331,11 @@ nav a{
     background: #F54C1E;
     margin-top: 48px;
 }
+.freeButton:hover{
+    background-color: transparent;
+    color: #F54C1E;
+    border: 1px solid #F54C1E;
+}
 .teamMember{
     background: url("/projects/corporate/assets/img/png/orangeDotted.png"), url("/projects/corporate/assets/img/png/orangeDotted.png");
     background-repeat: no-repeat;
@@ -389,6 +410,11 @@ margin-bottom: 20px;
     padding: 14px 17px;
     border-radius: 2px;
     background: #F54C1E;
+}
+.getStarted:hover{
+    background-color: transparent;
+    color: #F54C1E;
+    border: 1px solid #F54C1E;
 }
 footer{
     background-color: #031333;;
