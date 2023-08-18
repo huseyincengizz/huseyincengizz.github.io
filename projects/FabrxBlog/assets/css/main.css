@@ -56,6 +56,9 @@ nav li{
     font-weight: 600;
     line-height: 24px;
 }
+nav a:hover{
+    color: #0D6EFD;
+}
 .notification{
     display: flex;
     gap: 16px;
@@ -165,8 +168,9 @@ nav li{
     font-weight: 400;
     line-height: 24px; 
 }
-.card p:hover{
-    text-decoration: underline;
+.card:hover{
+    background-color: #0D6EFD;
+    transform: scale(1.1);
 }
 .card img{
     margin-bottom: 16px;
@@ -219,6 +223,10 @@ footer li:first-child{
     font-weight: 400;
     line-height: 24px;
     color: #807E7E;
+}
+.footerColumn a:hover{
+    color: #212121;
+    font-weight: bold;
 }
 .footerSub{
     display: flex;
