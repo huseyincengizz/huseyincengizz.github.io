@@ -909,7 +909,7 @@ hr{
 
 /* Media Query */
 @media only screen and (max-width: 450px)  {
-    .container{max-width: 375px; margin: 0 auto;}
+    .container{width: 375px; margin: 0 auto;}
     header{width: 375px; background-size: cover;}
     .navbar{padding: 16px;}
     .menu{display: none;}
